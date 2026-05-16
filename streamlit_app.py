@@ -1,4 +1,5 @@
-import json
+﻿import json
+import html
 from pathlib import Path
 
 import pandas as pd
@@ -11,9 +12,56 @@ DATA_PATH = Path("data/normalized/all_items.json")
 
 
 st.set_page_config(
-    page_title="NeYesem Demo",
+    page_title="NeYesem | Akıllı Fiyat Karşılaştırma",
     page_icon="🍽️",
     layout="wide",
+)
+
+
+st.markdown(
+    """
+    <style>
+        .main-title {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 0px;
+        }
+        .sub-title {
+            font-size: 18px;
+            color: #666;
+            margin-top: 4px;
+            margin-bottom: 24px;
+        }
+        .hero-card {
+            padding: 22px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #fff4ec 0%, #f8fbff 100%);
+            border: 1px solid #f0e3d8;
+            margin-bottom: 20px;
+        }
+        .best-card {
+            padding: 20px;
+            border-radius: 16px;
+            background-color: #ecfff7;
+            border: 1px solid #b7efd7;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+        .warning-card {
+            padding: 16px;
+            border-radius: 14px;
+            background-color: #fff8e8;
+            border: 1px solid #ffe0a3;
+            margin-top: 12px;
+            margin-bottom: 16px;
+        }
+        .small-muted {
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
 
 
@@ -27,27 +75,31 @@ def load_data():
 
     df = pd.DataFrame(items)
 
-    required_columns = {
-        "platform": None,
-        "restaurant_name": None,
-        "restaurant_rating": None,
-        "item_name": None,
-        "normalized_item_name": None,
-        "price": None,
-        "original_price": None,
-        "discount_rate": None,
-        "product_url": None,
-        "city": None,
-        "scraped_at": None,
-    }
+    required_columns = [
+        "platform",
+        "restaurant_name",
+        "restaurant_rating",
+        "item_name",
+        "normalized_item_name",
+        "price",
+        "original_price",
+        "discount_rate",
+        "product_url",
+        "city",
+        "scraped_at",
+    ]
 
-    for column, default_value in required_columns.items():
+    for column in required_columns:
         if column not in df.columns:
-            df[column] = default_value
+            df[column] = None
 
     df["price"] = pd.to_numeric(df["price"], errors="coerce")
     df["original_price"] = pd.to_numeric(df["original_price"], errors="coerce")
     df["discount_rate"] = pd.to_numeric(df["discount_rate"], errors="coerce")
+
+    df["normalized_item_name"] = df["normalized_item_name"].fillna(
+        df["item_name"].fillna("").apply(normalize_text)
+    )
 
     df["search_text"] = (
         df["item_name"].fillna("").apply(normalize_text)
@@ -55,12 +107,32 @@ def load_data():
         + df["restaurant_name"].fillna("").apply(normalize_text)
         + " "
         + df["platform"].fillna("").apply(normalize_text)
+        + " "
+        + df["city"].fillna("").apply(normalize_text)
     )
 
     return df
 
 
-def apply_filters(df, query, platforms, restaurants):
+def money(value):
+    if pd.isna(value):
+        return "-"
+    return f"{value:,.2f} TL".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def percent(value):
+    if pd.isna(value):
+        return "-"
+    return f"%{value:.1f}"
+
+
+def safe(value):
+    if value is None or pd.isna(value):
+        return "-"
+    return html.escape(str(value))
+
+
+def filter_data(df, query, platforms, restaurants, sort_mode):
     filtered = df.copy()
 
     if query:
@@ -73,23 +145,26 @@ def apply_filters(df, query, platforms, restaurants):
     if restaurants:
         filtered = filtered[filtered["restaurant_name"].isin(restaurants)]
 
-    return filtered.sort_values("price", ascending=True)
+    if sort_mode == "En düşük fiyat":
+        filtered = filtered.sort_values("price", ascending=True)
+    elif sort_mode == "En yüksek indirim":
+        filtered = filtered.sort_values("discount_rate", ascending=False)
+    elif sort_mode == "Platform":
+        filtered = filtered.sort_values(["platform", "price"], ascending=[True, True])
+    else:
+        filtered = filtered.sort_values("restaurant_name", ascending=True)
+
+    return filtered
 
 
-def format_display_df(df):
-    display = df.copy()
+def build_display_table(df):
+    table = df.copy()
 
-    display["Fiyat"] = display["price"].apply(
-        lambda x: f"{x:.2f} TL" if pd.notna(x) else "-"
-    )
-    display["Eski Fiyat"] = display["original_price"].apply(
-        lambda x: f"{x:.2f} TL" if pd.notna(x) else "-"
-    )
-    display["İndirim"] = display["discount_rate"].apply(
-        lambda x: f"%{x:.1f}" if pd.notna(x) else "-"
-    )
+    table["Fiyat"] = table["price"].apply(money)
+    table["Eski Fiyat"] = table["original_price"].apply(money)
+    table["İndirim"] = table["discount_rate"].apply(percent)
 
-    display = display.rename(
+    table = table.rename(
         columns={
             "platform": "Platform",
             "restaurant_name": "Restoran",
@@ -101,7 +176,7 @@ def format_display_df(df):
         }
     )
 
-    return display[
+    return table[
         [
             "Platform",
             "Restoran",
@@ -117,22 +192,96 @@ def format_display_df(df):
     ]
 
 
-def show_best_price(df):
-    if df.empty:
+def show_best_option(df):
+    valid = df.dropna(subset=["price"])
+
+    if valid.empty:
+        st.markdown(
+            """
+            <div class="warning-card">
+                Bu filtrelerle fiyat bilgisi olan ürün bulunamadı.
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
         return
 
-    best = df.sort_values("price", ascending=True).iloc[0]
+    best = valid.sort_values("price", ascending=True).iloc[0]
 
-    st.success(
-        f"En ucuz sonuç: **{best['platform']}** | "
-        f"**{best['restaurant_name']}** | "
-        f"**{best['item_name']}** → **{best['price']:.2f} TL**"
+    platform = safe(best["platform"])
+    restaurant = safe(best["restaurant_name"])
+    item = safe(best["item_name"])
+    price = money(best["price"])
+    old_price = money(best["original_price"])
+    discount = percent(best["discount_rate"])
+
+    st.markdown(
+        f"""
+        <div class="best-card">
+            <h3>✅ En uygun seçenek</h3>
+            <p style="font-size:18px; margin-bottom:6px;">
+                <b>{item}</b>
+            </p>
+            <p style="margin-bottom:4px;">
+                Platform: <b>{platform}</b> &nbsp; | &nbsp;
+                Restoran: <b>{restaurant}</b>
+            </p>
+            <p style="font-size:22px; margin-top:10px;">
+                <b>{price}</b>
+                <span class="small-muted"> Eski fiyat: {old_price} | İndirim: {discount}</span>
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
 
 
-def show_same_product_matches(df):
+def show_platform_summary(df):
     if df.empty:
-        st.info("Karşılaştırılacak sonuç yok.")
+        st.warning("Özet çıkarılacak veri bulunamadı.")
+        return
+
+    summary = (
+        df.groupby("platform")
+        .agg(
+            urun_sayisi=("item_name", "count"),
+            restoran_sayisi=("restaurant_name", "nunique"),
+            ortalama_fiyat=("price", "mean"),
+            minimum_fiyat=("price", "min"),
+            maksimum_fiyat=("price", "max"),
+        )
+        .reset_index()
+        .rename(
+            columns={
+                "platform": "Platform",
+                "urun_sayisi": "Ürün Sayısı",
+                "restoran_sayisi": "Restoran Sayısı",
+                "ortalama_fiyat": "Ortalama Fiyat",
+                "minimum_fiyat": "Minimum Fiyat",
+                "maksimum_fiyat": "Maksimum Fiyat",
+            }
+        )
+    )
+
+    for column in ["Ortalama Fiyat", "Minimum Fiyat", "Maksimum Fiyat"]:
+        summary[column] = summary[column].apply(money)
+
+    st.dataframe(summary, use_container_width=True, hide_index=True)
+
+    chart_df = (
+        df.groupby("platform")["price"]
+        .mean()
+        .reset_index()
+        .rename(columns={"platform": "Platform", "price": "Ortalama Fiyat"})
+    )
+
+    if not chart_df.empty:
+        st.bar_chart(chart_df, x="Platform", y="Ortalama Fiyat")
+
+
+def show_match_summary(df):
+    if df.empty:
+        st.warning("Eşleşme yapılacak veri bulunamadı.")
         return
 
     grouped = (
@@ -140,9 +289,9 @@ def show_same_product_matches(df):
         .agg(
             urun=("item_name", "first"),
             platform_sayisi=("platform", "nunique"),
+            sonuc_sayisi=("item_name", "count"),
             en_dusuk_fiyat=("price", "min"),
             en_yuksek_fiyat=("price", "max"),
-            sonuc_sayisi=("item_name", "count"),
         )
         .reset_index()
     )
@@ -150,23 +299,33 @@ def show_same_product_matches(df):
     grouped = grouped[grouped["platform_sayisi"] >= 2]
 
     if grouped.empty:
-        st.warning(
-            "Bu aramada aynı ürün iki farklı platformda eşleşmedi. "
-            "Bu normal olabilir; şu an veri farklı restoranlardan gelmiş olabilir."
+        st.markdown(
+            """
+            <div class="warning-card">
+                Bu aramada aynı ürün iki farklı platformda birebir eşleşmedi.
+                Bu normal olabilir; şu an platformlardan çekilen restoranlar farklı olabilir.
+                Veri kapsamı genişledikçe bu sekmede gerçek ürün eşleşmeleri artacaktır.
+            </div>
+            """,
+            unsafe_allow_html=True,
         )
         return
 
-    grouped["Fiyat Farkı"] = grouped["en_yuksek_fiyat"] - grouped["en_dusuk_fiyat"]
+    grouped["fiyat_farki"] = grouped["en_yuksek_fiyat"] - grouped["en_dusuk_fiyat"]
 
     grouped = grouped.rename(
         columns={
             "urun": "Ürün",
             "platform_sayisi": "Platform Sayısı",
+            "sonuc_sayisi": "Sonuç Sayısı",
             "en_dusuk_fiyat": "En Düşük Fiyat",
             "en_yuksek_fiyat": "En Yüksek Fiyat",
-            "sonuc_sayisi": "Sonuç Sayısı",
+            "fiyat_farki": "Fiyat Farkı",
         }
     )
+
+    for column in ["En Düşük Fiyat", "En Yüksek Fiyat", "Fiyat Farkı"]:
+        grouped[column] = grouped[column].apply(money)
 
     st.dataframe(
         grouped[
@@ -186,85 +345,123 @@ def show_same_product_matches(df):
 
 df = load_data()
 
-st.title("🍽️ NeYesem Fiyat Karşılaştırma Demo")
-st.write(
-    "Yemeksepeti ve Trendyol verilerini ortak JSON formatında birleştirip "
-    "ürün/restoran bazlı fiyat karşılaştırması yapan demo."
+st.markdown(
+    """
+    <div class="hero-card">
+        <div class="main-title">🍽️ NeYesem</div>
+        <div class="sub-title">
+            Yemek platformlarındaki ürünleri tek yerde toplayan, fiyatları karşılaştıran
+            ve kullanıcıya en uygun seçeneği gösteren akıllı karar destek demosu.
+        </div>
+        <b>Demo kapsamı:</b> Yemeksepeti + Trendyol verileri ortak formata dönüştürülür,
+        tek listede birleştirilir ve kullanıcı aramasına göre karşılaştırılır.
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 if df.empty:
     st.error(
         "Veri bulunamadı. Önce şu komutları çalıştır:\n\n"
         "`python .\\normalize_existing.py`\n\n"
-        "`python .\\normalize_trendyol_sample.py`\n\n"
+        "`python .\\normalize_trendyol.py`\n\n"
         "`python .\\combine_sources.py`"
     )
     st.stop()
 
 with st.sidebar:
-    st.header("Filtreler")
+    st.header("🔎 Demo Kontrol Paneli")
+
+    scenario = st.selectbox(
+        "Hazır demo senaryosu",
+        [
+            "Serbest arama",
+            "Waffle ara",
+            "Su ara",
+            "Bubble Tea ara",
+            "Tüm ürünleri göster",
+        ],
+    )
+
+    default_query = ""
+
+    if scenario == "Waffle ara":
+        default_query = "waffle"
+    elif scenario == "Su ara":
+        default_query = "su"
+    elif scenario == "Bubble Tea ara":
+        default_query = "bubble"
+    elif scenario == "Tüm ürünleri göster":
+        default_query = ""
 
     query = st.text_input(
         "Ürün / restoran ara",
-        value="",
-        placeholder="Örn: waffle, su, berry, bubble",
+        value=default_query,
+        placeholder="Örn: waffle, su, burger, bubble",
     )
 
     all_platforms = sorted(df["platform"].dropna().unique().tolist())
     selected_platforms = st.multiselect(
-        "Platform",
+        "Platform seç",
         options=all_platforms,
         default=all_platforms,
     )
 
     all_restaurants = sorted(df["restaurant_name"].dropna().unique().tolist())
     selected_restaurants = st.multiselect(
-        "Restoran",
+        "Restoran filtrele",
         options=all_restaurants,
         default=[],
     )
 
-filtered_df = apply_filters(
+    sort_mode = st.radio(
+        "Sıralama",
+        ["En düşük fiyat", "En yüksek indirim", "Platform", "Restoran"],
+    )
+
+filtered_df = filter_data(
     df=df,
     query=query,
     platforms=selected_platforms,
     restaurants=selected_restaurants,
+    sort_mode=sort_mode,
 )
 
-col1, col2, col3, col4 = st.columns(4)
+latest_update = df["scraped_at"].dropna().max() if "scraped_at" in df.columns else "-"
 
-with col1:
-    st.metric("Toplam Ürün", len(df))
+kpi1, kpi2, kpi3, kpi4 = st.columns(4)
 
-with col2:
-    st.metric("Gösterilen Sonuç", len(filtered_df))
+with kpi1:
+    st.metric("Toplam ürün", len(df))
 
-with col3:
-    st.metric("Platform", df["platform"].nunique())
+with kpi2:
+    st.metric("Gösterilen sonuç", len(filtered_df))
 
-with col4:
-    st.metric("Restoran", df["restaurant_name"].nunique())
+with kpi3:
+    st.metric("Platform sayısı", df["platform"].nunique())
 
-show_best_price(filtered_df)
+with kpi4:
+    st.metric("Restoran sayısı", df["restaurant_name"].nunique())
 
-tab1, tab2, tab3 = st.tabs(
+show_best_option(filtered_df)
+
+tab1, tab2, tab3, tab4 = st.tabs(
     [
-        "Fiyat Listesi",
+        "Karşılaştırma",
         "Aynı Ürün Eşleşmeleri",
         "Platform Özeti",
+        "Veri Akışı",
     ]
 )
 
 with tab1:
-    st.subheader("Fiyat Listesi")
+    st.subheader("Fiyat Karşılaştırma Listesi")
 
     if filtered_df.empty:
-        st.warning("Aramaya uygun sonuç bulunamadı.")
+        st.warning("Bu arama/filtre için sonuç bulunamadı.")
     else:
-        display_df = format_display_df(filtered_df)
-
         st.dataframe(
-            display_df,
+            build_display_table(filtered_df),
             use_container_width=True,
             hide_index=True,
             column_config={
@@ -273,46 +470,33 @@ with tab1:
         )
 
 with tab2:
-    st.subheader("Aynı Ürün Platform Karşılaştırması")
-    show_same_product_matches(filtered_df)
+    st.subheader("Aynı Ürün Eşleşmeleri")
+    st.write(
+        "Aynı ürün adı birden fazla platformda bulunduğunda fiyat farkı burada gösterilir."
+    )
+    show_match_summary(filtered_df)
 
 with tab3:
-    st.subheader("Platform Özeti")
+    st.subheader("Platform Bazlı Özet")
+    show_platform_summary(filtered_df)
 
-    platform_summary = (
-        filtered_df.groupby("platform")
-        .agg(
-            urun_sayisi=("item_name", "count"),
-            ortalama_fiyat=("price", "mean"),
-            minimum_fiyat=("price", "min"),
-            maksimum_fiyat=("price", "max"),
-        )
-        .reset_index()
-        .rename(
-            columns={
-                "platform": "Platform",
-                "urun_sayisi": "Ürün Sayısı",
-                "ortalama_fiyat": "Ortalama Fiyat",
-                "minimum_fiyat": "Minimum Fiyat",
-                "maksimum_fiyat": "Maksimum Fiyat",
-            }
-        )
+with tab4:
+    st.subheader("Veri İşleme Akışı")
+    st.markdown(
+        """
+        Bu demo aşağıdaki akışla çalışır:
+
+        1. **Veri çekme:** Yemeksepeti ve Trendyol kaynaklarından ürün/restoran verisi alınır.
+        2. **Normalize etme:** Platformlara özel ham veri ortak JSON formatına çevrilir.
+        3. **Birleştirme:** Tüm platform ürünleri `all_items.json` içinde toplanır.
+        4. **Karşılaştırma:** Kullanıcı aramasına göre fiyatlar yan yana listelenir.
+        5. **Karar desteği:** En ucuz seçenek ve platform özeti kullanıcıya gösterilir.
+
+        Bu yapı daha sonra Getir Yemek çıktısı da eklenerek üç platformlu hale getirilebilir.
+        """
     )
-
-    st.dataframe(
-        platform_summary,
-        use_container_width=True,
-        hide_index=True,
-    )
-
-    if not platform_summary.empty:
-        st.bar_chart(
-            platform_summary,
-            x="Platform",
-            y="Ortalama Fiyat",
-        )
 
 st.caption(
-    "Not: Bu ekran akademik PoC demosudur. Veriler düşük hacimli olarak çekilip "
-    "normalize edilmiştir. Fiyatlar partner platformlarda değişebilir."
+    f"Son veri güncelleme zamanı: {latest_update} | "
+    "Bu ekran akademik PoC demosudur. Fiyatlar partner platformlarda değişebilir."
 )

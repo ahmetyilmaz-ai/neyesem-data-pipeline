@@ -1,10 +1,11 @@
-import json
+﻿import json
 from pathlib import Path
 
 
 SOURCE_FILES = [
     Path("data/normalized/yemeksepeti_items.json"),
     Path("data/normalized/trendyol_items.json"),
+    Path("data/normalized/getir_items.json"),
 ]
 
 OUTPUT_PATH = Path("data/normalized/all_items.json")
@@ -20,7 +21,9 @@ def main():
 
         with source_file.open("r", encoding="utf-8") as file:
             items = json.load(file)
-            all_items.extend(items)
+
+        all_items.extend(items)
+        print(f"{source_file}: {len(items)} ürün eklendi.")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 

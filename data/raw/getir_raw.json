@@ -1,0 +1,102 @@
+[
+  {
+    "restaurant_id": "6954bff811a920b8a135d37b",
+    "restaurant_name": "EQO Döner, Yıldırım (152evler Mah.)",
+    "restaurant_rating": 4.1,
+    "restaurant_slug": "eqo-doner-yildirim-152evler-mah-yildirim-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/eqo-doner-yildirim-152evler-mah-yildirim-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:49",
+    "items": []
+  },
+  {
+    "restaurant_id": "678502d1ccf6ec34b4bfb21c",
+    "restaurant_name": "EQO Döner, Osmangazi (Kayıhan Mah.)",
+    "restaurant_rating": 4.2,
+    "restaurant_slug": "eqo-doner-osmangazi-kayihan-mah-osmangazi-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/eqo-doner-osmangazi-kayihan-mah-osmangazi-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:49",
+    "items": []
+  },
+  {
+    "restaurant_id": "697890652bbc83b6403d49b5",
+    "restaurant_name": "Emrah Dönmez Pide & Kebap & Döner, Osmangazi (Altınova Mah.)",
+    "restaurant_rating": 4.8,
+    "restaurant_slug": "emrah-donmez-pide-kebap-doner-osmangazi-altinova-mah-osmangazi-bursa-2",
+    "restaurant_url": "https://getir.com/yemek/restoran/emrah-donmez-pide-kebap-doner-osmangazi-altinova-mah-osmangazi-bursa-2/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:49",
+    "items": []
+  },
+  {
+    "restaurant_id": "641cb88aa860707e87a78a0b",
+    "restaurant_name": "Pizza Bulls, (Kükürtlü Mah.)",
+    "restaurant_rating": 4.6,
+    "restaurant_slug": "pizza-bulls-kukurtlu-mah-osmangazi-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/pizza-bulls-kukurtlu-mah-osmangazi-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:49",
+    "items": []
+  },
+  {
+    "restaurant_id": "639f7103f4f16e7acee66ac9",
+    "restaurant_name": "Köfteci Yusuf, Osmangazi (Alacamescit Mah.)",
+    "restaurant_rating": 4.3,
+    "restaurant_slug": "kofteci-yusuf-osmangazi-alacamescit-mah-osmangazi-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/kofteci-yusuf-osmangazi-alacamescit-mah-osmangazi-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:49",
+    "items": []
+  },
+  {
+    "restaurant_id": "61e713e653b020fc5ecdb055",
+    "restaurant_name": "Meşhur Adıyaman Çiğ Köftecisi Ömer Aybak, Yıldırım (Yıldırım Mah.)",
+    "restaurant_rating": 4.6,
+    "restaurant_slug": "meshur-adiyaman-cig-koftecisi-omer-aybak-yildirim-yildirim-mah-yildirim-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/meshur-adiyaman-cig-koftecisi-omer-aybak-yildirim-yildirim-mah-yildirim-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:49",
+    "items": []
+  },
+  {
+    "restaurant_id": "644694a954ac95492b5f2e66",
+    "restaurant_name": "Komagene Etsiz Çiğ Köfte, Osmangazi (Soğanlı Mah.)",
+    "restaurant_rating": 4.3,
+    "restaurant_slug": "komagene-etsiz-cig-kofte-osmangazi-soganli-mah-osmangazi-bursa-2",
+    "restaurant_url": "https://getir.com/yemek/restoran/komagene-etsiz-cig-kofte-osmangazi-soganli-mah-osmangazi-bursa-2/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:51",
+    "items": []
+  },
+  {
+    "restaurant_id": "603f91ed3f01ac2883831571",
+    "restaurant_name": "Komagene Etsiz Çiğ Köfte, Osmangazi (Demirtaşpaşa Mah.)",
+    "restaurant_rating": 4.5,
+    "restaurant_slug": "komagene-etsiz-cig-kofte-osmangazi-demirtaspasa-mah-osmangazi-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/komagene-etsiz-cig-kofte-osmangazi-demirtaspasa-mah-osmangazi-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:51",
+    "items": []
+  },
+  {
+    "restaurant_id": "6042725a9cc87d8a5412f24d",
+    "restaurant_name": "Domino's Pizza, Osmangazi (Altıparmak Mah.)",
+    "restaurant_rating": 4.4,
+    "restaurant_slug": "domino-s-pizza-osmangazi-altiparmak-mah-osmangazi-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/domino-s-pizza-osmangazi-altiparmak-mah-osmangazi-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:51",
+    "items": []
+  },
+  {
+    "restaurant_id": "639b3e9cf30040c1ccac3a61",
+    "restaurant_name": "Köfteci Yusuf, Yıldırım (Yenimahalle Mah.)",
+    "restaurant_rating": 4.6,
+    "restaurant_slug": "kofteci-yusuf-yildirim-yenimahalle-mah-yildirim-bursa",
+    "restaurant_url": "https://getir.com/yemek/restoran/kofteci-yusuf-yildirim-yenimahalle-mah-yildirim-bursa/",
+    "city": "bursa",
+    "scraped_at": "2026-05-16T22:45:51",
+    "items": []
+  }
+]
