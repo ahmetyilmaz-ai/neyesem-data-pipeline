@@ -1,0 +1,56 @@
+[
+  {
+    "restaurant_name": "Big Bubble Tea",
+    "restaurant_rating": "4.6",
+    "restaurant_url": "https://www.trendyol.com/yemek/restoran/big-bubble-tea",
+    "items": [
+      {
+        "name": "Berry Hibiscus",
+        "price": "209,90 TL",
+        "original_price": "249,90 TL"
+      },
+      {
+        "name": "Fresh Watermelon",
+        "price": "199,90 TL",
+        "original_price": "239,90 TL"
+      },
+      {
+        "name": "Dragon Lime",
+        "price": "215,00 TL",
+        "original_price": "239,90 TL"
+      },
+      {
+        "name": "Banana Chocolate",
+        "price": "235,00 TL",
+        "original_price": "269,90 TL"
+      },
+      {
+        "name": "Su 50 cl",
+        "price": "25,00 TL",
+        "original_price": "35,00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Burger House",
+    "restaurant_rating": "4.4",
+    "restaurant_url": "https://www.trendyol.com/yemek/restoran/burger-house",
+    "items": [
+      {
+        "name": "Cheeseburger Menü",
+        "price": "185,00 TL",
+        "original_price": "210,00 TL"
+      },
+      {
+        "name": "Tavuk Burger Menü",
+        "price": "165,00 TL",
+        "original_price": "180,00 TL"
+      },
+      {
+        "name": "Patates Kızartması",
+        "price": "75,00 TL",
+        "original_price": "85,00 TL"
+      }
+    ]
+  }
+]
