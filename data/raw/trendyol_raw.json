@@ -5,12 +5,12 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/1515",
     "items": [
       {
-        "name": "Üye Ol",
+        "name": "08",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
       },
       {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
+        "name": "07",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
       },
@@ -75,7 +75,7 @@
         "original_price": "460.00 TL"
       },
       {
-        "name": "(17 Değerlendirme)",
+        "name": "(16 Değerlendirme)",
         "price": "657.00 TL",
         "original_price": "657.00 TL"
       },
@@ -85,14 +85,9 @@
         "original_price": "830.00 TL"
       },
       {
-        "name": "(22 Değerlendirme)",
+        "name": "(21 Değerlendirme)",
         "price": "650.00 TL",
         "original_price": "650.00 TL"
-      },
-      {
-        "name": "(27 Değerlendirme)",
-        "price": "810.00 TL",
-        "original_price": "810.00 TL"
       },
       {
         "name": "(15 Değerlendirme)",
@@ -100,9 +95,9 @@
         "original_price": "410.00 TL"
       },
       {
-        "name": "(12 Değerlendirme)",
-        "price": "330.00 TL",
-        "original_price": "330.00 TL"
+        "name": "(27 Değerlendirme)",
+        "price": "810.00 TL",
+        "original_price": "810.00 TL"
       },
       {
         "name": "(13 Değerlendirme)",
@@ -113,6 +108,11 @@
         "name": "(12 Değerlendirme)",
         "price": "610.00 TL",
         "original_price": "610.00 TL"
+      },
+      {
+        "name": "(12 Değerlendirme)",
+        "price": "330.00 TL",
+        "original_price": "330.00 TL"
       },
       {
         "name": "2'li Et Taco",
@@ -220,12 +220,7 @@
         "original_price": "50.00 TL"
       },
       {
-        "name": "Hash Brown Sausage Scramble Bowl",
-        "price": "400.00 TL",
-        "original_price": "400.00 TL"
-      },
-      {
-        "name": "Hash Brown Tabasco Scramble Bowl",
+        "name": "Üç adet hash brown üzerinde, dört yumurtalı çırpılmış yumurta; özel cheddar sos, jalapeño parçaları ,Tabasco sos",
         "price": "300.00 TL",
         "original_price": "300.00 TL"
       },
@@ -240,7 +235,7 @@
         "original_price": "230.00 TL"
       },
       {
-        "name": "Nachos 1",
+        "name": "Kızarmış mısırlı tortilla parçaları, Meksika fasulyesi, jalapeno biberi, cheddar peyniri, domatesli salsa sosu",
         "price": "530.00 TL",
         "original_price": "530.00 TL"
       },
@@ -375,7 +370,7 @@
         "original_price": "430.00 TL"
       },
       {
-        "name": "(11 Değerlendirme)",
+        "name": "(10 Değerlendirme)",
         "price": "860.00 TL",
         "original_price": "860.00 TL"
       },
@@ -480,7 +475,7 @@
         "original_price": "560.00 TL"
       },
       {
-        "name": "Tortilla içerisinde bol cheddar peyniri, Meksika pilavı, Meksika fasulyesi, soğan, bol ekşi frema",
+        "name": "(6 Değerlendirme)",
         "price": "330.00 TL",
         "original_price": "330.00 TL"
       },
@@ -750,7 +745,7 @@
         "original_price": "60.00 TL"
       },
       {
-        "name": "(15 Değerlendirme)",
+        "name": "(14 Değerlendirme)",
         "price": "90.00 TL",
         "original_price": "90.00 TL"
       },
@@ -801,16 +796,6 @@
     "restaurant_rating": null,
     "restaurant_url": "https://tgoyemek.com/restoranlar/1930",
     "items": [
-      {
-        "name": "Üye Ol",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
       {
         "name": "Min. Tutar",
         "price": "499.00 TL",
@@ -877,16 +862,6 @@
         "original_price": "614.90 TL"
       },
       {
-        "name": "Mushroom & More Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
-        "price": "634.90 TL",
-        "original_price": "634.90 TL"
-      },
-      {
-        "name": "Tavuk",
-        "price": "449.90 TL",
-        "original_price": "449.90 TL"
-      },
-      {
         "name": "Cheeseburger",
         "price": "419.90 TL",
         "original_price": "419.90 TL"
@@ -897,9 +872,19 @@
         "original_price": "939.90 TL"
       },
       {
+        "name": "Mushroom & More Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
+        "price": "634.90 TL",
+        "original_price": "634.90 TL"
+      },
+      {
         "name": "2 Adet Burger & More Menü + Soğan Halkası (5 Adet)",
         "price": "1329.90 TL",
         "original_price": "1329.90 TL"
+      },
+      {
+        "name": "Tavuk",
+        "price": "449.90 TL",
+        "original_price": "449.90 TL"
       },
       {
         "name": "2 Adet Cheeseburger Menü + Soğan Halkası (5 Adet)",
@@ -907,14 +892,14 @@
         "original_price": "1239.90 TL"
       },
       {
-        "name": "Crispy Chicken Cheeseburger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
-        "price": "554.90 TL",
-        "original_price": "554.90 TL"
+        "name": "Double Decker Burger",
+        "price": "739.90 TL",
+        "original_price": "739.90 TL"
       },
       {
-        "name": "Soğan Halkası (6 Adet)",
-        "price": "159.90 TL",
-        "original_price": "159.90 TL"
+        "name": "Burger & More Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
+        "price": "619.90 TL",
+        "original_price": "619.90 TL"
       },
       {
         "name": "2 Adet Double Decker Menü + Soğan Halkası (5 Adet)",
@@ -982,11 +967,6 @@
         "original_price": "709.90 TL"
       },
       {
-        "name": "Burger & More Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
-        "price": "619.90 TL",
-        "original_price": "619.90 TL"
-      },
-      {
         "name": "450 Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
         "price": "1119.90 TL",
         "original_price": "1119.90 TL"
@@ -1000,6 +980,11 @@
         "name": "Crispy Chicken Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
         "price": "534.90 TL",
         "original_price": "534.90 TL"
+      },
+      {
+        "name": "Crispy Chicken Cheeseburger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
+        "price": "554.90 TL",
+        "original_price": "554.90 TL"
       },
       {
         "name": "Crishp Chicken Mushroom Burger + Patates Kızartması veya 5 Adet Soğan Halkası + İçecek",
@@ -1067,14 +1052,9 @@
         "original_price": "509.90 TL"
       },
       {
-        "name": "Burger & More Burger",
+        "name": "150 gr. köfte, 4 adet soğan halkası, dana füme, cheddar peyniri, BBQ sos, turşu, ev yapımı burger sos",
         "price": "419.90 TL",
         "original_price": "419.90 TL"
-      },
-      {
-        "name": "Double Decker Burger",
-        "price": "739.90 TL",
-        "original_price": "739.90 TL"
       },
       {
         "name": "450 Burger",
@@ -1150,6 +1130,11 @@
         "name": "Soğan Halkası (8 Adet)",
         "price": "179.90 TL",
         "original_price": "179.90 TL"
+      },
+      {
+        "name": "Soğan Halkası (6 Adet)",
+        "price": "159.90 TL",
+        "original_price": "159.90 TL"
       },
       {
         "name": "Elma Dilim Patates Kızartması",
@@ -1240,6 +1225,236 @@
         "name": "0.5lt",
         "price": "35.00 TL",
         "original_price": "35.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "250.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.5km",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "360.00 TL",
+        "original_price": "360.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "0.6m",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Popchicken Menü Alana Popchicken Menü Hediye",
+        "price": "260.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "2.4km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.4km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "7km",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "0.2m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "1.3km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "250.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1000.00 TL",
+        "original_price": "1250.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "300.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "475.00 TL",
+        "original_price": "575.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "295.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "0.9m",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "269.00 TL",
+        "original_price": "269.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "2.3km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
       }
     ]
   },
@@ -1248,16 +1463,6 @@
     "restaurant_rating": null,
     "restaurant_url": "https://tgoyemek.com/restoranlar/3527",
     "items": [
-      {
-        "name": "Üye Ol",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
       {
         "name": "Min. Tutar",
         "price": "449.00 TL",
@@ -1294,14 +1499,24 @@
         "original_price": "400.00 TL"
       },
       {
+        "name": "Pastırma & Cheese Hot Dog",
+        "price": "524.00 TL",
+        "original_price": "524.00 TL"
+      },
+      {
+        "name": "Dana Bacon Cheese Hot Dog",
+        "price": "489.00 TL",
+        "original_price": "489.00 TL"
+      },
+      {
+        "name": "4 adet soğan halkası, chicken fingers, elma dilim patates kızartması, ev yapımı sos",
+        "price": "449.00 TL",
+        "original_price": "449.00 TL"
+      },
+      {
         "name": "Cheese Hot Dog",
         "price": "434.00 TL",
         "original_price": "434.00 TL"
-      },
-      {
-        "name": "Parmak dilim",
-        "price": "219.00 TL",
-        "original_price": "219.00 TL"
       },
       {
         "name": "Classic Hot Dog",
@@ -1344,14 +1559,9 @@
         "original_price": "449.00 TL"
       },
       {
-        "name": "Dana Bacon Cheese Hot Dog",
-        "price": "489.00 TL",
-        "original_price": "489.00 TL"
-      },
-      {
-        "name": "Pastırma & Cheese Hot Dog",
-        "price": "524.00 TL",
-        "original_price": "524.00 TL"
+        "name": "Parmak dilim",
+        "price": "219.00 TL",
+        "original_price": "219.00 TL"
       },
       {
         "name": "Elma dilim",
@@ -1377,11 +1587,6 @@
         "name": "6 adet",
         "price": "149.00 TL",
         "original_price": "149.00 TL"
-      },
-      {
-        "name": "4 adet soğan halkası, chicken fingers, elma dilim patates kızartması, ev yapımı sos",
-        "price": "449.00 TL",
-        "original_price": "449.00 TL"
       },
       {
         "name": "Tek kişilik",
@@ -1487,6 +1692,236 @@
         "name": "Ballı Hardal",
         "price": "35.00 TL",
         "original_price": "35.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "250.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.5km",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "360.00 TL",
+        "original_price": "360.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "0.6m",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Popchicken Menü Alana Popchicken Menü Hediye",
+        "price": "260.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "2.4km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.4km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "7km",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "0.2m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "1.3km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "250.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1000.00 TL",
+        "original_price": "1250.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "300.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "475.00 TL",
+        "original_price": "575.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "295.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "0.9m",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "269.00 TL",
+        "original_price": "269.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "2.3km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
       }
     ]
   },
@@ -1496,12 +1931,12 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/5443",
     "items": [
       {
-        "name": "Üye Ol",
+        "name": "06",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
       },
       {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
+        "name": "05",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
       },
@@ -1531,7 +1966,7 @@
         "original_price": "632.00 TL"
       },
       {
-        "name": "Mega Çiğ Köfte Dürüm Menü",
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Mega Çiğ Köfte Dürüm + Ayran (17 cl.)",
         "price": "272.00 TL",
         "original_price": "272.00 TL"
       },
@@ -1541,9 +1976,9 @@
         "original_price": "56.00 TL"
       },
       {
-        "name": "Çiğ Köfte (750 gr.) + İçecek (1 L.)",
-        "price": "920.00 TL",
-        "original_price": "920.00 TL"
+        "name": "(10 Değerlendirme)",
+        "price": "224.00 TL",
+        "original_price": "224.00 TL"
       },
       {
         "name": "2'li Mega Çiğ Köfte Dürüm Menü",
@@ -1551,9 +1986,29 @@
         "original_price": "640.00 TL"
       },
       {
-        "name": "(10 Değerlendirme)",
-        "price": "224.00 TL",
-        "original_price": "224.00 TL"
+        "name": "Çiğ Köfte (750 gr.) + İçecek (1 L.)",
+        "price": "920.00 TL",
+        "original_price": "920.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "176.00 TL",
+        "original_price": "176.00 TL"
+      },
+      {
+        "name": "Yeşillik, 6 adet lavaş ekmeği, sos, 3 adet acı sos,3 adet çiğ köfte sos",
+        "price": "760.00 TL",
+        "original_price": "760.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "264.00 TL",
+        "original_price": "264.00 TL"
+      },
+      {
+        "name": "Lavaş (2 Adet)",
+        "price": "24.00 TL",
+        "original_price": "24.00 TL"
       },
       {
         "name": "2 Doritoslu Mega Çiğ Köfte Dürüm (150 gr.) + 2 Oses Ayran (17cl)",
@@ -1561,17 +2016,17 @@
         "original_price": "656.00 TL"
       },
       {
-        "name": "Mega Çiğ Köfte Dürüm Menü",
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Mega Çiğ Köfte Dürüm + Ayran (17 cl.)",
         "price": "280.00 TL",
         "original_price": "280.00 TL"
       },
       {
-        "name": "Çiğ Köfte Dürüm Menü",
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Çiğ Köfte Dürüm + Ayran (17 cl.)",
         "price": "232.00 TL",
         "original_price": "232.00 TL"
       },
       {
-        "name": "Çiğ Köfte Dürüm Menü",
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Çiğ Köfte Dürüm + Ayran (17 cl.)",
         "price": "296.00 TL",
         "original_price": "296.00 TL"
       },
@@ -1641,19 +2096,9 @@
         "original_price": "480.00 TL"
       },
       {
-        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
-        "price": "176.00 TL",
-        "original_price": "176.00 TL"
-      },
-      {
         "name": "Yeşillik tabağı, 2 adet lavaş, acı sos, çiğ köfte sos",
         "price": "400.00 TL",
         "original_price": "400.00 TL"
-      },
-      {
-        "name": "Yeşillik, 6 adet lavaş ekmeği, sos, 3 adet acı sos,3 adet çiğ köfte sos",
-        "price": "760.00 TL",
-        "original_price": "760.00 TL"
       },
       {
         "name": "Büyük yeşillik tabağı, 8 adet lavaş, 3 adet acı sos, 3 adet çiğ köfte sos",
@@ -1686,11 +2131,6 @@
         "original_price": "208.00 TL"
       },
       {
-        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
-        "price": "264.00 TL",
-        "original_price": "264.00 TL"
-      },
-      {
         "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi böl84ümünden yapınız.",
         "price": "200.00 TL",
         "original_price": "200.00 TL"
@@ -1709,11 +2149,6 @@
         "name": "Doritoslu Ultra Çiğ Köfte Dürüm (120 gr )",
         "price": "238.40 TL",
         "original_price": "238.40 TL"
-      },
-      {
-        "name": "Lavaş (2 Adet)",
-        "price": "24.00 TL",
-        "original_price": "24.00 TL"
       },
       {
         "name": "(6 Ürün)",
@@ -1848,19 +2283,9 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/6082",
     "items": [
       {
-        "name": "Üye Ol",
+        "name": "05",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Min. Tutar",
-        "price": "0.00 TL",
-        "original_price": "0.00 TL"
       },
       {
         "name": "Kapıda Ödeme (8)",
@@ -1913,12 +2338,12 @@
         "original_price": "350.00 TL"
       },
       {
-        "name": "Büyük sandviç ekmeğine; 90 gr. sosis, patates kızartması, sos, mayonez",
+        "name": "170 gr. tavuk, domates, turşu, patates kızartması",
         "price": "350.00 TL",
         "original_price": "350.00 TL"
       },
       {
-        "name": "170 gr. tavuk, domates, turşu, patates kızartması",
+        "name": "Büyük sandviç ekmeğine; 90 gr. sosis, patates kızartması, sos, mayonez",
         "price": "350.00 TL",
         "original_price": "350.00 TL"
       },
@@ -1928,9 +2353,9 @@
         "original_price": "250.00 TL"
       },
       {
-        "name": "(21 Değerlendirme)",
-        "price": "650.00 TL",
-        "original_price": "650.00 TL"
+        "name": "Kaşarlı Tavuk Dürüm + Patates Kızartması + İçecek",
+        "price": "550.00 TL",
+        "original_price": "550.00 TL"
       },
       {
         "name": "4 Adet Islak Burger 1 Litre Kola",
@@ -1993,6 +2418,11 @@
         "original_price": "600.00 TL"
       },
       {
+        "name": "(21 Değerlendirme)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
         "name": "Cheeseburger + Patates Kızartması + İçecek",
         "price": "700.00 TL",
         "original_price": "700.00 TL"
@@ -2011,11 +2441,6 @@
         "name": "Tavuk Burger + Patates Kızartması + İçecek",
         "price": "500.00 TL",
         "original_price": "500.00 TL"
-      },
-      {
-        "name": "Kaşarlı Tavuk Dürüm + Patates Kızartması + İçecek",
-        "price": "550.00 TL",
-        "original_price": "550.00 TL"
       },
       {
         "name": "Kaşarlı Köfte Dürüm + Patates Kızartması + İçecek",
@@ -2404,16 +2829,6 @@
     "restaurant_rating": null,
     "restaurant_url": "https://tgoyemek.com/restoranlar/8330",
     "items": [
-      {
-        "name": "Üye Ol",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
       {
         "name": "Min. Tutar",
         "price": "800.00 TL",
@@ -2858,6 +3273,236 @@
         "name": "İce White Mocha",
         "price": "225.00 TL",
         "original_price": "225.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "250.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.5km",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "360.00 TL",
+        "original_price": "360.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "0.6m",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Popchicken Menü Alana Popchicken Menü Hediye",
+        "price": "260.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "2.4km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.4km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "7km",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "0.2m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "1.3km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "250.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1000.00 TL",
+        "original_price": "1250.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "300.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "475.00 TL",
+        "original_price": "575.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "295.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "0.9m",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "269.00 TL",
+        "original_price": "269.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "2.3km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
       }
     ]
   },
@@ -2867,12 +3512,7 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/10670",
     "items": [
       {
-        "name": "Üye Ol",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
+        "name": "05",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
       },
@@ -3209,9 +3849,14 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/10829",
     "items": [
       {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
         "name": "Min. Tutar",
-        "price": "100.00 TL",
-        "original_price": "100.00 TL"
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
       },
       {
         "name": "Kapıda Ödeme (1)",
@@ -3224,14 +3869,14 @@
         "original_price": "250.00 TL"
       },
       {
-        "name": "Günlük Taze Kendi üretimimiz Mini Tulumba",
-        "price": "325.00 TL",
-        "original_price": "325.00 TL"
-      },
-      {
         "name": "Büyük Osmanlı Tulumbası (1 Kg)",
         "price": "350.00 TL",
         "original_price": "350.00 TL"
+      },
+      {
+        "name": "Günlük Taze Kendi üretimimiz Mini Tulumba",
+        "price": "325.00 TL",
+        "original_price": "325.00 TL"
       },
       {
         "name": "Günlük Taze Kendi üretimimiz Mini Tulumba",
@@ -3242,6 +3887,11 @@
         "name": "Günlük Taze Kendi üretimimiz Tombiş osmanlı Tulumbası",
         "price": "325.00 TL",
         "original_price": "325.00 TL"
+      },
+      {
+        "name": "Günlük Taze Kendi üretimimiz Tombiş osmanlı Tulumbası",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
       },
       {
         "name": "Peynirli Su Böreği (Tepsi) (3.5 kg)",
@@ -3259,11 +3909,6 @@
         "original_price": "200.00 TL"
       },
       {
-        "name": "Günlük Taze Kendi üretimimiz Tombiş osmanlı Tulumbası",
-        "price": "200.00 TL",
-        "original_price": "200.00 TL"
-      },
-      {
         "name": "Günlük Taze Kendi üretimimiz Büyük Osmanlı Tulumbası",
         "price": "200.00 TL",
         "original_price": "200.00 TL"
@@ -3276,19 +3921,9 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/13784",
     "items": [
       {
-        "name": "Üye Ol",
+        "name": "05",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Min. Tutar",
-        "price": "0.00 TL",
-        "original_price": "0.00 TL"
       },
       {
         "name": "Pluxee (Sodexo) Online",
@@ -3526,7 +4161,7 @@
         "original_price": "530.00 TL"
       },
       {
-        "name": "Ev Yapımı Acı Soslu Özbek M. (200 gr.)",
+        "name": "Özbek Asıllı Ustaların Hazırladığı Orijinal Fırınlanmış Özbek Mantısı ve Yoğurt, Seçeceğiniz Sos Eşliğinde...",
         "price": "530.00 TL",
         "original_price": "530.00 TL"
       },
@@ -3633,12 +4268,7 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/14935",
     "items": [
       {
-        "name": "Üye Ol",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
+        "name": "05",
         "price": "175.00 TL",
         "original_price": "300.00 TL"
       },
@@ -3713,16 +4343,6 @@
         "original_price": "880.00 TL"
       },
       {
-        "name": "İsteğe göre acılı",
-        "price": "1000.00 TL",
-        "original_price": "2000.00 TL"
-      },
-      {
-        "name": "İsteğe göre acılı",
-        "price": "200.00 TL",
-        "original_price": "200.00 TL"
-      },
-      {
         "name": "cevizli ve sumaklı",
         "price": "230.00 TL",
         "original_price": "1000.00 TL"
@@ -3731,6 +4351,16 @@
         "name": "cevizli ve sumaklı",
         "price": "430.00 TL",
         "original_price": "430.00 TL"
+      },
+      {
+        "name": "İsteğe göre acılı",
+        "price": "1000.00 TL",
+        "original_price": "2000.00 TL"
+      },
+      {
+        "name": "İsteğe göre acılı",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
       },
       {
         "name": "(7 Değerlendirme)",
@@ -3771,11 +4401,6 @@
         "name": "Közlenmiş domates, közlenmiş biber, soslu ekmek ile",
         "price": "800.00 TL",
         "original_price": "1000.00 TL"
-      },
-      {
-        "name": "Közlenmiş domates, közlenmiş biber, soslu ekmek ile",
-        "price": "0.00 TL",
-        "original_price": "0.00 TL"
       },
       {
         "name": "Tavuk Şiş Acısız + 330 ml Coca-cola",
@@ -4195,6 +4820,11 @@
         "original_price": "559.99 TL"
       },
       {
+        "name": "Mozzarella peyniri, sosis, mantar, mısır, siyah zeytin, sucuk",
+        "price": "559.99 TL",
+        "original_price": "559.99 TL"
+      },
+      {
         "name": "Tek Büyük Boy Pizza",
         "price": "44.00 TL",
         "original_price": "74.00 TL"
@@ -4213,11 +4843,6 @@
         "name": "(16 Değerlendirme)",
         "price": "729.99 TL",
         "original_price": "729.99 TL"
-      },
-      {
-        "name": "Mozzarella peyniri, sosis, mantar, mısır, siyah zeytin, sucuk",
-        "price": "559.99 TL",
-        "original_price": "559.99 TL"
       },
       {
         "name": "Büyük Boy Pepperoni Pizza + 2 adet Sarımsak Sos",
@@ -4340,7 +4965,7 @@
         "original_price": "109.99 TL"
       },
       {
-        "name": "Parmesanlı Klasik Çubuk",
+        "name": "(Özel Sarımsak Soslu ) Fırında pişirilen 6 adet çubuk, özel sarımsak sosu, parmesan peyniri. Pizza sosu ile",
         "price": "139.99 TL",
         "original_price": "139.99 TL"
       },
@@ -4380,7 +5005,7 @@
         "original_price": "219.99 TL"
       },
       {
-        "name": "Vegan Pizza (Büyük)",
+        "name": "Pizza sosu, domates, mantar, soğan, yeşilbiber, zeytin, mısır (Hayvansal gıda ve peynir içermemektedir.)",
         "price": "439.99 TL",
         "original_price": "439.99 TL"
       },
@@ -4395,7 +5020,7 @@
         "original_price": "559.99 TL"
       },
       {
-        "name": "Bahçe Keyfi Pizza (Büyük)",
+        "name": "Mozzarella peyniri, dilimlenmiş taze domates, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin, mısır",
         "price": "519.99 TL",
         "original_price": "519.99 TL"
       },
@@ -4475,7 +5100,7 @@
         "original_price": "559.99 TL"
       },
       {
-        "name": "Super Papa's Pizza (Büyük)",
+        "name": "Mozzarella peyniri, pepperoni, İtalyan köfte, jambon, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin",
         "price": "639.99 TL",
         "original_price": "639.99 TL"
       },
@@ -4495,7 +5120,7 @@
         "original_price": "479.99 TL"
       },
       {
-        "name": "Bahçe Keyfi Pizza (Orta)",
+        "name": "Mozzarella peyniri, dilimlenmiş taze domates, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin, mısır",
         "price": "439.99 TL",
         "original_price": "439.99 TL"
       },
@@ -4580,12 +5205,12 @@
         "original_price": "479.99 TL"
       },
       {
-        "name": "Super Papa's Pizza (Orta)",
+        "name": "Mozzarella peyniri, pepperoni, İtalyan köfte, jambon, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin",
         "price": "519.99 TL",
         "original_price": "519.99 TL"
       },
       {
-        "name": "Vegan Pizza (Orta)",
+        "name": "Pizza sosu, domates, mantar, soğan, yeşilbiber, zeytin, mısır (Hayvansal gıda ve peynir içermemektedir.)",
         "price": "339.99 TL",
         "original_price": "339.99 TL"
       },
@@ -4615,7 +5240,7 @@
         "original_price": "319.99 TL"
       },
       {
-        "name": "Bahçe Keyfi Pizza (Küçük)",
+        "name": "Mozzarella peyniri, dilimlenmiş taze domates, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin, mısır",
         "price": "279.99 TL",
         "original_price": "279.99 TL"
       },
@@ -4700,12 +5325,12 @@
         "original_price": "299.99 TL"
       },
       {
-        "name": "Super Papa's Pizza (Küçük)",
+        "name": "Mozzarella peyniri, pepperoni, İtalyan köfte, jambon, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin",
         "price": "359.99 TL",
         "original_price": "359.99 TL"
       },
       {
-        "name": "Vegan Pizza (Küçük)",
+        "name": "Pizza sosu, domates, mantar, soğan, yeşilbiber, zeytin, mısır (Hayvansal gıda ve peynir içermemektedir.)",
         "price": "229.99 TL",
         "original_price": "229.99 TL"
       },
@@ -4857,16 +5482,6 @@
     "restaurant_url": "https://tgoyemek.com/restoranlar/16111",
     "items": [
       {
-        "name": "Üye Ol",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
-        "name": "Şu anda temsili restoranları görüntülemektesiniz. Sipariş verebilmek için lütfen giriş yapın.",
-        "price": "175.00 TL",
-        "original_price": "300.00 TL"
-      },
-      {
         "name": "Min. Tutar",
         "price": "350.00 TL",
         "original_price": "350.00 TL"
@@ -4897,29 +5512,34 @@
         "original_price": "400.00 TL"
       },
       {
-        "name": "(38 Değerlendirme)",
+        "name": "(37 Değerlendirme)",
         "price": "476.69 TL",
         "original_price": "476.69 TL"
       },
       {
-        "name": "Dana hamburger köftesi, duble cheddar peyniri, burger sos. Patates kızartması ile",
-        "price": "524.99 TL",
-        "original_price": "524.99 TL"
+        "name": "(10 Değerlendirme)",
+        "price": "664.99 TL",
+        "original_price": "664.99 TL"
       },
       {
-        "name": "(17 Değerlendirme)",
-        "price": "580.99 TL",
-        "original_price": "580.99 TL"
+        "name": "(7 Değerlendirme)",
+        "price": "594.99 TL",
+        "original_price": "594.99 TL"
       },
       {
-        "name": "(19 Değerlendirme)",
-        "price": "30.09 TL",
-        "original_price": "30.09 TL"
+        "name": "2 ad yesen spacial, 2 ad patates, 4 ad soğan halkası, 4 ad çıtır top ve 1 lt içecek ile servis edilir.",
+        "price": "1369.34 TL",
+        "original_price": "1369.34 TL"
       },
       {
-        "name": "Colorado Acı Sos",
-        "price": "30.09 TL",
-        "original_price": "30.09 TL"
+        "name": "2 ad yesen spacial, 2 ad patates, 4 ad soğan halkası, 4 ad çıtır top ve 1 lt içecek ile servis edilir.",
+        "price": "1127.69 TL",
+        "original_price": "1127.69 TL"
+      },
+      {
+        "name": "2 ad cheese burger, 2 ad patates, 4 ad soğan halkası, 4 ad çıtır top ve 1 lt içecek eşliğinde servis edilir.",
+        "price": "938.69 TL",
+        "original_price": "938.69 TL"
       },
       {
         "name": "Acılım Burger + Patates Kızartması + Kutu İçecek",
@@ -4942,11 +5562,6 @@
         "original_price": "459.19 TL"
       },
       {
-        "name": "(7 Değerlendirme)",
-        "price": "594.99 TL",
-        "original_price": "594.99 TL"
-      },
-      {
         "name": "Yesen Gurme + Patates Kızartması + Kutu İçecek",
         "price": "515.19 TL",
         "original_price": "515.19 TL"
@@ -4955,11 +5570,6 @@
         "name": "Yesen Tavuk Burger + Patates Kızartması + Kutu İçecek",
         "price": "515.19 TL",
         "original_price": "515.19 TL"
-      },
-      {
-        "name": "(10 Değerlendirme)",
-        "price": "664.99 TL",
-        "original_price": "664.99 TL"
       },
       {
         "name": "Çıtır Piliç Fileto, cheddar peyniri, ranch sos, turşu, yeşillik, patates kızartması, kutu içecek",
@@ -4977,12 +5587,12 @@
         "original_price": "833.69 TL"
       },
       {
-        "name": "Efsane 2'li",
+        "name": "1 Adet Cheese Burger, 1 Adet Piliç Burger, Patates Kızartması, 4'lü Soğan Halkası, 4'lü Tavuk Çıtır, 1 Lt İçecek",
         "price": "1071.84 TL",
         "original_price": "1071.84 TL"
       },
       {
-        "name": "Efsane 2'li",
+        "name": "1 Adet Cheese Burger, 1 Adet Piliç Burger, Patates Kızartması, 4'lü Soğan Halkası, 4'lü Tavuk Çıtır, 1 Lt İçecek",
         "price": "882.69 TL",
         "original_price": "882.69 TL"
       },
@@ -4997,39 +5607,24 @@
         "original_price": "658.69 TL"
       },
       {
-        "name": "Kafadar Menü",
+        "name": "2 ad steak burger, 4 ad soğan halkası, 2 ad patates, 4 ad çıtır top, 1 lt içecek eşliğinde servis edilir",
         "price": "1326.84 TL",
         "original_price": "1326.84 TL"
       },
       {
-        "name": "Kafadar Menü",
+        "name": "2 ad steak burger, 4 ad soğan halkası, 2 ad patates, 4 ad çıtır top, 1 lt içecek eşliğinde servis edilir",
         "price": "1092.69 TL",
         "original_price": "1092.69 TL"
       },
       {
-        "name": "Aile Menü",
+        "name": "1 ad gurme burger, 1 ad tavuk burger, 1 ad afacan burger, 3 ad patates ve 1 lt içecek eşliğinde servis edilir.",
         "price": "1241.84 TL",
         "original_price": "1241.84 TL"
       },
       {
-        "name": "Aile Menü",
+        "name": "1 ad gurme burger, 1 ad tavuk burger, 1 ad afacan burger, 3 ad patates ve 1 lt içecek eşliğinde servis edilir.",
         "price": "1022.69 TL",
         "original_price": "1022.69 TL"
-      },
-      {
-        "name": "Doyuran Menü",
-        "price": "1369.34 TL",
-        "original_price": "1369.34 TL"
-      },
-      {
-        "name": "Doyuran Menü",
-        "price": "1127.69 TL",
-        "original_price": "1127.69 TL"
-      },
-      {
-        "name": "Cheese 2 Lı",
-        "price": "938.69 TL",
-        "original_price": "938.69 TL"
       },
       {
         "name": "Acılım Burger Maxi",
@@ -5062,6 +5657,11 @@
         "original_price": "389.19 TL"
       },
       {
+        "name": "Dana hamburger köftesi, duble cheddar peyniri, burger sos. Patates kızartması ile",
+        "price": "524.99 TL",
+        "original_price": "524.99 TL"
+      },
+      {
         "name": "Tavuk eti, ranch sos, turşu & yeşillik, patates kızartması ile",
         "price": "540.59 TL",
         "original_price": "540.59 TL"
@@ -5070,6 +5670,11 @@
         "name": "Tavuk eti, ranch sos, turşu & yeşillik, patates kızartması ile",
         "price": "445.19 TL",
         "original_price": "445.19 TL"
+      },
+      {
+        "name": "(17 Değerlendirme)",
+        "price": "580.99 TL",
+        "original_price": "580.99 TL"
       },
       {
         "name": "Dana Eti, Domates, Soğan, Turşu, Yeşillik, Ketçap, Mayonez, Patates Kızartması ile",
@@ -5332,6 +5937,11 @@
         "original_price": "30.09 TL"
       },
       {
+        "name": "Colorado Acı Sos",
+        "price": "30.09 TL",
+        "original_price": "30.09 TL"
+      },
+      {
         "name": "Colorado Ballı Hardal",
         "price": "30.09 TL",
         "original_price": "30.09 TL"
@@ -5345,6 +5955,3362 @@
         "name": "Colorado Garlic Sos",
         "price": "30.09 TL",
         "original_price": "30.09 TL"
+      },
+      {
+        "name": "(18 Değerlendirme)",
+        "price": "30.09 TL",
+        "original_price": "30.09 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Pizzeria Ulus (Nisbetiye)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/16836",
+    "items": [
+      {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Min. Tutar",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (14)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, piliç füme eti",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, rozbif dilimleri",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, köy biberi, siyah zeytin, beyaz peynir, domates",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, parmesan peyniri, Kars gravyer peyniri, rokfor peyniri, isteğe göre ceviz, roka",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, sosis, mısır, isteğe göre roka",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, bresaola, parmesan peyniri, isteğe göre roka",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "(Di Latte di Bufala) Domates sos, manda sütünden mozzarella peyniri, isteğe göre taze fesleğen",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, cotto dana jambon, isteğe göre roka",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, pepperoni, bresaola, cotto dana jambon, parmesan peyniri, isteğe göre roka",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, dana füme antrikot dilimleri, mantar, parmesan peyniri, isteğe göre roka",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, keçi peyniri, ıspanak, cherry domates, çam fıstığı, isteğe göre roka",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, sosis, cotto dana jambon, pepperoni, mantar, kalamata zeytin, mısır, isteğe göre roka",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Sebzeli Pizza",
+        "price": "900.00 TL",
+        "original_price": "900.00 TL"
+      },
+      {
+        "name": "Sebzesi Bol Pizza",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Domates sos, mozzarella peyniri, kestane mantarı, kültür mantarı, istiridye mantarı, trüf yağı, isteğe göre roka",
+        "price": "950.00 TL",
+        "original_price": "950.00 TL"
+      },
+      {
+        "name": "Kaşarlı Pide",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Sucuklu Kaşarlı Pide",
+        "price": "875.00 TL",
+        "original_price": "875.00 TL"
+      },
+      {
+        "name": "Pastırmalı Kaşarlı Pide",
+        "price": "875.00 TL",
+        "original_price": "875.00 TL"
+      },
+      {
+        "name": "Kornişon Turşu",
+        "price": "75.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "Ketçap, mayonez ile",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Keyif Tabağı",
+        "price": "850.00 TL",
+        "original_price": "850.00 TL"
+      },
+      {
+        "name": "Keyif Tabağı",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "180 gr. yıldız sosis, kokteyl sos",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Sarımsak sos ile",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Akdeniz Salata",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Taze roka, Bresaola, parmesan peyniri, ceviz, kiraz domates, zeytinyağı, limon sos. isteğe göre kızarmış ekmek dilimleri",
+        "price": "850.00 TL",
+        "original_price": "850.00 TL"
+      },
+      {
+        "name": "Buffa Caprese Salata",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Keçi Peynirli Salata",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Taze roka, parmesan peyniri, ceviz, kiraz domates, zeytinyağı, limon sos. İsteğe göre kızarmış ekmek dilimleri",
+        "price": "800.00 TL",
+        "original_price": "800.00 TL"
+      },
+      {
+        "name": "Somon Füme Salata",
+        "price": "850.00 TL",
+        "original_price": "850.00 TL"
+      },
+      {
+        "name": "Ton Balıklı Salata",
+        "price": "800.00 TL",
+        "original_price": "800.00 TL"
+      },
+      {
+        "name": "Yeşil Salata",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "İsteğe göre pudra şekeri",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Katmer (2 Kişilik)",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Sade Hatay penirli Künefe",
+        "price": "325.00 TL",
+        "original_price": "325.00 TL"
+      },
+      {
+        "name": "Fıstıklı Künefe",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Coca-Cola (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Coca-Cola Light (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Fanta (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Sprite (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Fuse Tea (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Ayran (27,5 cl.)",
+        "price": "75.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "Soda (33 cl.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Su (33 cl.)",
+        "price": "55.00 TL",
+        "original_price": "55.00 TL"
+      },
+      {
+        "name": "Fanta (1 L.)",
+        "price": "130.00 TL",
+        "original_price": "130.00 TL"
+      },
+      {
+        "name": "Coca-Cola (1 L.)",
+        "price": "130.00 TL",
+        "original_price": "130.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (1 L.)",
+        "price": "130.00 TL",
+        "original_price": "130.00 TL"
+      },
+      {
+        "name": "Sprite (1 L.)",
+        "price": "130.00 TL",
+        "original_price": "130.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Corte d'Oro Yeniköy (Yeniköy)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/18278",
+    "items": [
+      {
+        "name": "Min. Tutar",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (2)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "100.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "125.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, dana jambon, mantar",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Acılı domates sosu, mozzarella, pepperoni, acılı zeytinyağı",
+        "price": "590.00 TL",
+        "original_price": "590.00 TL"
+      },
+      {
+        "name": "San Marzano domates sosu, mozzarella, taze fesleğen, sızma zeytinyağı",
+        "price": "520.00 TL",
+        "original_price": "520.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, mantar, salam, sucuk, sosis, siyah zeytin, yeşil biber, mısır+coca cola",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2 adet Prosciutto E Funghi (32cm) yanında 1 Lt Coca Cola ile",
+        "price": "190.00 TL",
+        "original_price": "190.00 TL"
+      },
+      {
+        "name": "San Marzano domates sosu, mozzarella, taze fesleğen, sızma zeytinyağı+coca cola",
+        "price": "550.00 TL",
+        "original_price": "550.00 TL"
+      },
+      {
+        "name": "Klasik İtalyan tiramisu",
+        "price": "340.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, dana jambon, mantar",
+        "price": "590.00 TL",
+        "original_price": "590.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, mantar, salam, sucuk, sosis, siyah zeytin, yeşil biber, mısır",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Ricotta tabanı, mozzarella, gorgonzola, İzmir tulumu, parmesan",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, trüf yağı, mantar, parmesan, sarımsak+coca cola",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Ricotta tabanı, mozzarella, gorgonzola, İzmir tulumu, parmesan+coca cola",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, dana jambon, mantar, enginar, siyah zeytin",
+        "price": "610.00 TL",
+        "original_price": "610.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, trüf yağı, mantar, parmesan, sarımsak",
+        "price": "620.00 TL",
+        "original_price": "620.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, burrata, taze fesleğen",
+        "price": "780.00 TL",
+        "original_price": "780.00 TL"
+      },
+      {
+        "name": "Pesto sosu, mozzarella, cherry domates, roka, parmesan",
+        "price": "580.00 TL",
+        "original_price": "580.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, ton balığı, zeytin, mısır",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Ricotta sosu, mozzarella, tavuk, mantar, biber",
+        "price": "590.00 TL",
+        "original_price": "590.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, roka, kapya biber, siyah zeytin, cherry domates, beyaz peynir",
+        "price": "570.00 TL",
+        "original_price": "570.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, pepperoni, jalapeno, kırmızı soğan",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, karides, limon kabuğu, maydanoz, sarımsak",
+        "price": "740.00 TL",
+        "original_price": "740.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, karides, mantar, soğan, yeşil biber",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, bonfile, mantar, soğan, yeşil biber",
+        "price": "760.00 TL",
+        "original_price": "760.00 TL"
+      },
+      {
+        "name": "Antrikot Nero",
+        "price": "780.00 TL",
+        "original_price": "780.00 TL"
+      },
+      {
+        "name": "Ricotta sosu, mozzarella, mantar, roast beef, roka, keçi peyniri, parmesan",
+        "price": "770.00 TL",
+        "original_price": "770.00 TL"
+      },
+      {
+        "name": "Domates sosu, mozzarella, füme kaburga, kırmızı soğan, balzamik sos, fesleğen, parmesan",
+        "price": "790.00 TL",
+        "original_price": "790.00 TL"
+      },
+      {
+        "name": "Ricotta sosu, mozzarella, burrata, antrikot, yeşil biber, trüf yağı, baby roka, sızma zeytinyağı",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Ricotta sosu, mozzarella, dana jambon, yeşil biber, mantar",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "(1 Adet) Prosciutto E Funghi (32 cm) 1 Adet Misto (32 cm) Yanında (1 lt) Coca Cola İle",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "2 adet Diavola (32cm) yanında 1 Lt Coca Cola ile",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "2 adet Margherita (32cm) yanında 1 Lt Coca Cola ile",
+        "price": "50.00 TL",
+        "original_price": "50.00 TL"
+      },
+      {
+        "name": "3 adet Prosciutto E Funghi (32cm) yanında 1Lt Coca Cola ile",
+        "price": "490.00 TL",
+        "original_price": "490.00 TL"
+      },
+      {
+        "name": "3 adet Misto (32cm) yanında 1 Lt Coca Cola ile",
+        "price": "690.00 TL",
+        "original_price": "690.00 TL"
+      },
+      {
+        "name": "2 adet Misto (32cm) yanında 1 Lt Coca Cola ile",
+        "price": "290.00 TL",
+        "original_price": "290.00 TL"
+      },
+      {
+        "name": "Mozzarella dilimleri, domates, fesleğen, zeytinyağı, balsamik dokunuş",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Soğuk İçecek",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Soğuk İçecek",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Ice Tea",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Ayran",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Su",
+        "price": "50.00 TL",
+        "original_price": "50.00 TL"
+      },
+      {
+        "name": "Parmak dilim",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "250.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.5km",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "360.00 TL",
+        "original_price": "360.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "0.6m",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Popchicken Menü Alana Popchicken Menü Hediye",
+        "price": "260.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "2.4km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.4km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "7km",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "0.2m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "1.3km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "250.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1000.00 TL",
+        "original_price": "1250.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "300.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "475.00 TL",
+        "original_price": "575.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "295.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "0.9m",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "269.00 TL",
+        "original_price": "269.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "2.3km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Oses Çiğ Köfte (Fatih Sultan Mehmet)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/22869",
+    "items": [
+      {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Min. Tutar",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (2)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "100.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "125.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "2'li Mega Çiğ Köfte Dürüm Menü",
+        "price": "445.00 TL",
+        "original_price": "445.00 TL"
+      },
+      {
+        "name": "(15 Değerlendirme)",
+        "price": "199.00 TL",
+        "original_price": "199.00 TL"
+      },
+      {
+        "name": "Yeşillik tabağı, 2 adet lavaş, acı sos, çiğ köfte sos",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Orta boy yeşillik tabağı, 4 adet lavaş, 2 Adet çiğ köfte sos, 2 adet acı sos",
+        "price": "585.00 TL",
+        "original_price": "585.00 TL"
+      },
+      {
+        "name": "(7 Değerlendirme)",
+        "price": "199.00 TL",
+        "original_price": "199.00 TL"
+      },
+      {
+        "name": "Büyük yeşillik tabağı, 8 adet lavaş, 3 adet acı sos, 3 adet çiğ köfte sos",
+        "price": "995.00 TL",
+        "original_price": "995.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Mega Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "259.00 TL",
+        "original_price": "259.00 TL"
+      },
+      {
+        "name": "(7 Değerlendirme)",
+        "price": "175.00 TL",
+        "original_price": "175.00 TL"
+      },
+      {
+        "name": "2 Adet Çiğ Köfte Dürüm + 2 Adet Ayran (17 cl.)",
+        "price": "395.00 TL",
+        "original_price": "395.00 TL"
+      },
+      {
+        "name": "2 Çiğ Köfte Dürüm + 2 Oses Ayran (170 ml.)",
+        "price": "395.00 TL",
+        "original_price": "395.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (1kg.) + 1 lt ayran",
+        "price": "995.00 TL",
+        "original_price": "995.00 TL"
+      },
+      {
+        "name": "2 Doritoslu Mega Çiğ Köfte Dürüm (150 gr.) + 2 Oses Ayran (17cl)",
+        "price": "585.00 TL",
+        "original_price": "585.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Mega Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "365.00 TL",
+        "original_price": "365.00 TL"
+      },
+      {
+        "name": "2'li Mega Çiğ Köfte Dürüm Menü",
+        "price": "499.00 TL",
+        "original_price": "499.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "215.00 TL",
+        "original_price": "215.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte Dürüm & Turşu Suyu Menü",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "2 Adet Çiğ Köfte Dürüm + 2 Adet Ayran (17 cl.)",
+        "price": "595.00 TL",
+        "original_price": "595.00 TL"
+      },
+      {
+        "name": "3'lü Çiğ Köfte Dürüm Menü",
+        "price": "595.00 TL",
+        "original_price": "595.00 TL"
+      },
+      {
+        "name": "4'lü Çiğ Köfte Dürüm Menü",
+        "price": "795.00 TL",
+        "original_price": "795.00 TL"
+      },
+      {
+        "name": "Ultra Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "195.00 TL",
+        "original_price": "195.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (1 kg.) + İçecek (1 L.)",
+        "price": "995.00 TL",
+        "original_price": "995.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (900 gr.) + İçecek (1 L.)",
+        "price": "930.00 TL",
+        "original_price": "930.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (750 gr.) + İçecek (1 L.)",
+        "price": "895.00 TL",
+        "original_price": "895.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (600 gr.) + İçecek (1 L.)",
+        "price": "765.00 TL",
+        "original_price": "765.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (500 gr.) + İçecek (1 L.)",
+        "price": "645.00 TL",
+        "original_price": "645.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (500 gr.) + 4 Adet Oses Turşu Suyu",
+        "price": "645.00 TL",
+        "original_price": "645.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (300 gr.) + 2 Adet Oses Turşu Suyu",
+        "price": "395.00 TL",
+        "original_price": "395.00 TL"
+      },
+      {
+        "name": "Yeşillik, 6 adet lavaş ekmeği, sos, 3 adet acı sos,3 adet çiğ köfte sos",
+        "price": "785.00 TL",
+        "original_price": "785.00 TL"
+      },
+      {
+        "name": "6 Adet Lavaş, 3 Adet Acı Sos, 3 Adet çiğ köfte sos",
+        "price": "715.00 TL",
+        "original_price": "715.00 TL"
+      },
+      {
+        "name": "8 adet lavaş, 3 adet acı sos, 3 adet çiğ köfte sos",
+        "price": "910.00 TL",
+        "original_price": "910.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "185.00 TL",
+        "original_price": "185.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi böl84ümünden yapınız.",
+        "price": "175.00 TL",
+        "original_price": "175.00 TL"
+      },
+      {
+        "name": "5 adet lavaş, yeşillik, 2 adet acı sos, 2 adet çiğ köfte sos",
+        "price": "610.00 TL",
+        "original_price": "610.00 TL"
+      },
+      {
+        "name": "7 adet lavaş, yeşillik, 3 adet acı sos, 3 adet çiğ köfte sos",
+        "price": "895.00 TL",
+        "original_price": "895.00 TL"
+      },
+      {
+        "name": "Doritoslu Ultra Çiğ Köfte Dürüm (120 gr )",
+        "price": "195.00 TL",
+        "original_price": "195.00 TL"
+      },
+      {
+        "name": "Antep Usulü İçli Köfte",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Antep Usulü İçli Köfte",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Lavaş (2 Adet)",
+        "price": "30.00 TL",
+        "original_price": "30.00 TL"
+      },
+      {
+        "name": "Iceberg marul, maydanoz, limon",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      },
+      {
+        "name": "Iceberg marul, maydanoz, limon",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Kazandibi",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Profiterol",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Supangle",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Eker Çikolatalı Puding (100 gr.)",
+        "price": "85.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Eker Kazandibi (100 gr.)",
+        "price": "85.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Eker Kazandibi (150 gr.)",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      },
+      {
+        "name": "Eker Profiterol (100gr.)",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      },
+      {
+        "name": "Eker Supangle (150 gr.)",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      },
+      {
+        "name": "Eker Supangle (150 gr.)",
+        "price": "85.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Eker Tavukgöğsü (100 gr.)",
+        "price": "85.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Acılı Ayran (275 ml.)",
+        "price": "75.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "(11 Değerlendirme)",
+        "price": "45.00 TL",
+        "original_price": "45.00 TL"
+      },
+      {
+        "name": "Ayran (20 cl.)",
+        "price": "45.00 TL",
+        "original_price": "45.00 TL"
+      },
+      {
+        "name": "Ayran (30 cl.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Eker Ayran (270 ml)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Eker Ayran (295 ml.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Fanta (33 cl.)",
+        "price": "99.00 TL",
+        "original_price": "99.00 TL"
+      },
+      {
+        "name": "Oses Turşu Suyu",
+        "price": "50.00 TL",
+        "original_price": "50.00 TL"
+      },
+      {
+        "name": "Soda (20 cl.)",
+        "price": "45.00 TL",
+        "original_price": "45.00 TL"
+      },
+      {
+        "name": "Meyveli Soda (20 cl.)",
+        "price": "45.00 TL",
+        "original_price": "45.00 TL"
+      },
+      {
+        "name": "Niğde Gazozu (25 cl.)",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (30 cl.)",
+        "price": "65.00 TL",
+        "original_price": "65.00 TL"
+      },
+      {
+        "name": "Su (50 cl.)",
+        "price": "25.00 TL",
+        "original_price": "25.00 TL"
+      },
+      {
+        "name": "Ayran (1 L.)",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Eker Ayran (1 L.)",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Coca-Cola (1 L.)",
+        "price": "139.00 TL",
+        "original_price": "139.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Fanta (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (1 L.)",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Ekşili Ayran (275 ml. )",
+        "price": "75.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "Naneli Ayran (275 ml. )",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Coco Cola Zero Sugar ( 330 Ml. )",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Coco Cola ( 330 Ml. )",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Sprite ( 330 Ml. )",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Fuse Tea Şeftali 330 ml",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Fuse Tea Limon 330 ml",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Ekstra Stick Acı Sos",
+        "price": "15.00 TL",
+        "original_price": "15.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte Sos",
+        "price": "18.00 TL",
+        "original_price": "18.00 TL"
+      },
+      {
+        "name": "Burger Sos (770 gr.)",
+        "price": "295.00 TL",
+        "original_price": "295.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte Sosu (1 L.)",
+        "price": "195.00 TL",
+        "original_price": "195.00 TL"
+      },
+      {
+        "name": "Stick Çiğ köfte Sos",
+        "price": "16.00 TL",
+        "original_price": "16.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Lily Tatlı & Dondurma (Dikilitaş)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/25391",
+    "items": [
+      {
+        "name": "Min. Tutar",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (10)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "100.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Anne pudingi, cicibebe, muz, çilek, nutella, lotus biscoff",
+        "price": "550.00 TL",
+        "original_price": "550.00 TL"
+      },
+      {
+        "name": "Çilek, muz, nutella, fındık, ceviz ve bonibon",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "330 cc. cam kavanozda servis edilir.",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "(250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Belçika Waffle",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "El yapımı ve günlük hazırlanır",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Bebe Bisküvili Gelato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "330 cc. cam kavanozda servis edilir.",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Külah (Adet)",
+        "price": "25.00 TL",
+        "original_price": "25.00 TL"
+      },
+      {
+        "name": "Oreolu Variegato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Vanilyalı Gelato Dondurma (250 g)",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Kaymaklı Dondurma (250 g)",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Brownie Gelato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Tahinli Gelato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Cevizli Gelato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Bal Bademli Gelato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Yer Fıstıklı Gelato Dondurma (250 g)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Fındıklı Gelato Dondurma (250 g)",
+        "price": "550.00 TL",
+        "original_price": "550.00 TL"
+      },
+      {
+        "name": "Külah (10 Adet)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "330 cc. cam kavanozda servis edilir.",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Fındık, ceviz, Nutella, muz. 330 cc. cam kavanozda servis edilir.",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Belçika çikolatası, tahin, çilek, lotus. 330 cc. cam kavanozda servis edilir.",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "330 cc. cam kavanozda servis edilir.",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "330 cc. cam kavanozda servis edilir.",
+        "price": "430.00 TL",
+        "original_price": "430.00 TL"
+      },
+      {
+        "name": "Bask Cheesecake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Belçika Çikolatalı Cheesecake",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Beyaz Çikolatalı Cheesecake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Frambuazlı Cheesecake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Lotus Biscoff, New York cheesecake",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "Diyabetik, yaban mersini",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Nutellalı Cheesecake",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "El yapımı ve günlük hazırlanır",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Çikolatalı Milkshake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Çilekli Milkshake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Oreolu Milkshake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Hindistan Cevizli & Nutellalı Milkshake",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "Ballı & Muzlu Milkshake",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Portakallı Smoothie",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Kivili Smoothie",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Muzlu Smoothie",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Çilekli Smoothie",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Orman Meyveli Smoothie",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Taze Sıkma Portakal Suyu",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Portakal, nar, havuç ve elma ile",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Ballı & Cevizli & Muzlu Atom",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Ballı & Cevizli & Muzlu Atom",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "Coca Cola (330 ml)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Coca Cola Şekersiz (330 ml)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Fanta (330 ml)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Sprite (330 ml)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Fuse Tea (250 ml)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Red Bull (250 ml)",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Su (500 ml)",
+        "price": "40.00 TL",
+        "original_price": "40.00 TL"
+      },
+      {
+        "name": "Su (1 L)",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Cool Lime (400 ml.)",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "İstanbul Waffle",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Paris Waffle",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "İzmir Waffle",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Nutella, muz, çilek, kuru kayısı, kuru dut, kuru üzüm ve beyaz damla çikolata",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Nutella, muz, çilek, frambuaz sos ve jelibon",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "Double Waffle",
+        "price": "900.00 TL",
+        "original_price": "900.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Pluxee ile McDonald's Keyfi",
+        "price": "250.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.5km",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "360.00 TL",
+        "original_price": "360.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %10 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "0.6m",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Popchicken Menü Alana Popchicken Menü Hediye",
+        "price": "260.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %5 İndirim",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "2.4km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1.4km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "0.4m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "7km",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "200.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Döner,Tavuk,Burger",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "0.2m",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "1.3km",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %20 İndirim",
+        "price": "250.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "1000.00 TL",
+        "original_price": "1250.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "2.2km",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "Döner",
+        "price": "300.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "475.00 TL",
+        "original_price": "575.00 TL"
+      },
+      {
+        "name": "Salata & Sağlık,Meze",
+        "price": "295.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "0.9m",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Semtin Yıldızı",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "1.7km",
+        "price": "269.00 TL",
+        "original_price": "269.00 TL"
+      },
+      {
+        "name": "Belirli Ürünlerde %30 İndirim",
+        "price": "1500.00 TL",
+        "original_price": "1500.00 TL"
+      },
+      {
+        "name": "2.3km",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Oses Çiğ Köfte (Çamlıtepe)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/25633",
+    "items": [
+      {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Min. Tutar",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (1)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Mega Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "265.00 TL",
+        "original_price": "265.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "245.00 TL",
+        "original_price": "245.00 TL"
+      },
+      {
+        "name": "Büyük yeşillik tabağı, 8 adet lavaş, 3 adet acı sos, 3 adet nar ekşisi",
+        "price": "890.00 TL",
+        "original_price": "890.00 TL"
+      },
+      {
+        "name": "Yeşillik, 6 adet lavaş ekmeği, sos, 3 adet acı sos,3 adet nar ekşisi",
+        "price": "720.00 TL",
+        "original_price": "720.00 TL"
+      },
+      {
+        "name": "Yeşillik tabağı, 2 adet lavaş, acı sos, nar ekşisi",
+        "price": "315.00 TL",
+        "original_price": "315.00 TL"
+      },
+      {
+        "name": "2 Çiğ Köfte Dürüm + 2 Oses Ayran (170 ml.)",
+        "price": "510.00 TL",
+        "original_price": "510.00 TL"
+      },
+      {
+        "name": "2'li Mega Çiğ Köfte Dürüm Menü",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Mega Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "335.00 TL",
+        "original_price": "335.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "215.00 TL",
+        "original_price": "215.00 TL"
+      },
+      {
+        "name": "(Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.) Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "280.00 TL",
+        "original_price": "280.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte Dürüm & Turşu Suyu Menü",
+        "price": "265.00 TL",
+        "original_price": "265.00 TL"
+      },
+      {
+        "name": "2 Adet Çiğ Köfte Dürüm + 2 Adet Ayran (17 cl.)",
+        "price": "410.00 TL",
+        "original_price": "410.00 TL"
+      },
+      {
+        "name": "3'lü Çiğ Köfte Dürüm Menü",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "4'lü Çiğ Köfte Dürüm Menü",
+        "price": "840.00 TL",
+        "original_price": "840.00 TL"
+      },
+      {
+        "name": "4'lü Çiğ Köfte Dürüm Menü",
+        "price": "800.00 TL",
+        "original_price": "800.00 TL"
+      },
+      {
+        "name": "Ultra Çiğ Köfte Dürüm + Ayran (17 cl.)",
+        "price": "230.00 TL",
+        "original_price": "230.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (1 kg.) + İçecek (1 L.)",
+        "price": "880.00 TL",
+        "original_price": "880.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (900 gr.) + İçecek (1 L.)",
+        "price": "920.00 TL",
+        "original_price": "920.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (750 gr.) + İçecek (1 L.)",
+        "price": "830.00 TL",
+        "original_price": "830.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (600 gr.) + İçecek (1 L.)",
+        "price": "690.00 TL",
+        "original_price": "690.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (500 gr.) + İçecek (1 L.)",
+        "price": "640.00 TL",
+        "original_price": "640.00 TL"
+      },
+      {
+        "name": "Çiğ Köfte (500 gr.) + 4 Adet Oses Turşu Suyu",
+        "price": "710.00 TL",
+        "original_price": "710.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "165.00 TL",
+        "original_price": "165.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Orta boy yeşillik tabağı, 4 adet lavaş, 2 Adet nar ekşisi, 2 adet acı sos",
+        "price": "510.00 TL",
+        "original_price": "510.00 TL"
+      },
+      {
+        "name": "8 adet lavaş, 3 adet acı sos, 3 adet nar ekşisi",
+        "price": "850.00 TL",
+        "original_price": "850.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi bölümünden yapınız.",
+        "price": "185.00 TL",
+        "original_price": "185.00 TL"
+      },
+      {
+        "name": "Lütfen, dürüm içerisine malzeme seçiminizi malzeme seçimi böl84ümünden yapınız.",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "5 adet lavaş, yeşillik, 2 adet acı sos, 2 adet nar ekşisi",
+        "price": "630.00 TL",
+        "original_price": "630.00 TL"
+      },
+      {
+        "name": "5 adet lavaş, yeşillik, 2 adet acı sos, 2 adet nar ekşisi",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "7 adet lavaş, yeşillik, 3 adet acı sos, 3 adet nar ekşisi",
+        "price": "830.00 TL",
+        "original_price": "830.00 TL"
+      },
+      {
+        "name": "Doritoslu Ultra Çiğ Köfte Dürüm (120 gr )",
+        "price": "205.00 TL",
+        "original_price": "205.00 TL"
+      },
+      {
+        "name": "Lavaş (2 Adet)",
+        "price": "20.00 TL",
+        "original_price": "20.00 TL"
+      },
+      {
+        "name": "Iceberg marul, maydanoz, limon",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Iceberg marul, maydanoz, limon",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Ayran (17 cl.)",
+        "price": "45.00 TL",
+        "original_price": "45.00 TL"
+      },
+      {
+        "name": "Ayran (30 cl.)",
+        "price": "65.00 TL",
+        "original_price": "65.00 TL"
+      },
+      {
+        "name": "Coca Cola (33 cl.) Pet Şişe",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Eker Ayran (270 ml)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Eker Ayran (295 ml.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Cam Şişe",
+        "price": "50.00 TL",
+        "original_price": "50.00 TL"
+      },
+      {
+        "name": "Fanta (33 cl.)",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Oses Turşu Suyu",
+        "price": "65.00 TL",
+        "original_price": "65.00 TL"
+      },
+      {
+        "name": "Soda (20 cl.)",
+        "price": "45.00 TL",
+        "original_price": "45.00 TL"
+      },
+      {
+        "name": "Meyveli Soda (20 cl.)",
+        "price": "50.00 TL",
+        "original_price": "50.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (30 cl.)",
+        "price": "65.00 TL",
+        "original_price": "65.00 TL"
+      },
+      {
+        "name": "Su (50 cl.)",
+        "price": "30.00 TL",
+        "original_price": "30.00 TL"
+      },
+      {
+        "name": "Ayran (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Coca-Cola (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Fanta (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Coco Cola Zero Sugar ( 330 Ml. )",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Coco Cola ( 330 Ml. )",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Sprite ( 330 Ml. )",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Fuse Tea Şeftali 330 ml",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Fuse Tea Limon 330 ml",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Ekstra Stick Acı Sos",
+        "price": "10.00 TL",
+        "original_price": "10.00 TL"
+      },
+      {
+        "name": "Special Sos",
+        "price": "10.00 TL",
+        "original_price": "10.00 TL"
+      },
+      {
+        "name": "Special Sos (1L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Domino's Pizza (Maslak)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/28195",
+    "items": [
+      {
+        "name": "06",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Min. Tutar",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (2)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "200.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "1 Alana 1 Hediye - 2 Orta Boy Pizza",
+        "price": "470.00 TL",
+        "original_price": "470.00 TL"
+      },
+      {
+        "name": "1 Alana 1 Hediye - 2 Orta Boy Pizza",
+        "price": "590.00 TL",
+        "original_price": "590.00 TL"
+      },
+      {
+        "name": "Orta Boy Pizza",
+        "price": "470.00 TL",
+        "original_price": "470.00 TL"
+      },
+      {
+        "name": "(12 Değerlendirme)",
+        "price": "540.00 TL",
+        "original_price": "540.00 TL"
+      },
+      {
+        "name": "(12 Değerlendirme)",
+        "price": "660.00 TL",
+        "original_price": "660.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pizza + Litrelik İçecek",
+        "price": "25.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "(13 Değerlendirme)",
+        "price": "580.00 TL",
+        "original_price": "580.00 TL"
+      },
+      {
+        "name": "(13 Değerlendirme)",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Bol Malzemos",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Bol Malzemos",
+        "price": "770.00 TL",
+        "original_price": "770.00 TL"
+      },
+      {
+        "name": "(6 Değerlendirme)",
+        "price": "510.00 TL",
+        "original_price": "510.00 TL"
+      },
+      {
+        "name": "(11 Değerlendirme)",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "(11 Değerlendirme)",
+        "price": "620.00 TL",
+        "original_price": "620.00 TL"
+      },
+      {
+        "name": "Cazip Pizzalar + Süperos İçin Geçerlidir",
+        "price": "780.00 TL",
+        "original_price": "780.00 TL"
+      },
+      {
+        "name": "3 Adet Büyük Boy Pizza + 2 Adet Litrelik İçecek",
+        "price": "40.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "3 Adet Büyük Boy Pizza + 2 Adet Litrelik İçecek",
+        "price": "330.00 TL",
+        "original_price": "330.00 TL"
+      },
+      {
+        "name": "Cheddar peynirli ve mozzarellalı, sarımsaklı çeşnili dilimler",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Pizza X-Large (12 Dilim) & Litrelik İçecek",
+        "price": "640.00 TL",
+        "original_price": "640.00 TL"
+      },
+      {
+        "name": "Pizza X-Large (12 Dilim) & Litrelik İçecek",
+        "price": "760.00 TL",
+        "original_price": "760.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pan Pizza & Litrelik İçecek",
+        "price": "690.00 TL",
+        "original_price": "690.00 TL"
+      },
+      {
+        "name": "Orta Boy Pan Pizza & Sos & İçecek (330 ml)",
+        "price": "490.00 TL",
+        "original_price": "490.00 TL"
+      },
+      {
+        "name": "Büyük Boy Pizza + Cinnamon Roll",
+        "price": "580.00 TL",
+        "original_price": "580.00 TL"
+      },
+      {
+        "name": "Büyük Boy Pizza + Cinnamon Roll",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "Pizza X-Large (12 Dilim) + 8'li Cinnamon Roll",
+        "price": "640.00 TL",
+        "original_price": "640.00 TL"
+      },
+      {
+        "name": "Pizza X-Large (12 Dilim) + 8'li Cinnamon Roll",
+        "price": "760.00 TL",
+        "original_price": "760.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Bol Malzemos + Litrelik İçecek",
+        "price": "730.00 TL",
+        "original_price": "730.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Bol Malzemos + Litrelik İçecek",
+        "price": "850.00 TL",
+        "original_price": "850.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pizza + Cinnamon Roll",
+        "price": "640.00 TL",
+        "original_price": "640.00 TL"
+      },
+      {
+        "name": "3 Orta Boy Bol Malzemos",
+        "price": "870.00 TL",
+        "original_price": "870.00 TL"
+      },
+      {
+        "name": "(6 Değerlendirme)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pizza + 2 Çikolatalı Sufle",
+        "price": "690.00 TL",
+        "original_price": "690.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pizza + 2 Çikolatalı Sufle",
+        "price": "810.00 TL",
+        "original_price": "810.00 TL"
+      },
+      {
+        "name": "Büyük Boy Pizza & Litrelik İçecek",
+        "price": "40.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Büyük Boy Pizza & Litrelik İçecek",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Büyük Boy Pizza & Litrelik İçecek",
+        "price": "720.00 TL",
+        "original_price": "720.00 TL"
+      },
+      {
+        "name": "Büyük Boy Pizza + Çikolatalı Sufle",
+        "price": "560.00 TL",
+        "original_price": "560.00 TL"
+      },
+      {
+        "name": "3 Orta Boy Pizza + Tavuk + Patates + Litrelik İçecek",
+        "price": "960.00 TL",
+        "original_price": "960.00 TL"
+      },
+      {
+        "name": "2 Adet Çikolatalı Sufle",
+        "price": "260.00 TL",
+        "original_price": "260.00 TL"
+      },
+      {
+        "name": "4 Adet Çikolatalı Sufle",
+        "price": "490.00 TL",
+        "original_price": "490.00 TL"
+      },
+      {
+        "name": "Tavuk Fırsatı",
+        "price": "85.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Tavuk Kova Fırsatı",
+        "price": "170.00 TL",
+        "original_price": "170.00 TL"
+      },
+      {
+        "name": "Patates Fırsatı",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Çıtır Karışık Kova Fırsatı",
+        "price": "280.00 TL",
+        "original_price": "280.00 TL"
+      },
+      {
+        "name": "2 Adet Bol Peynirli Ekmek",
+        "price": "310.00 TL",
+        "original_price": "310.00 TL"
+      },
+      {
+        "name": "2 Adet Bol Peynirli Ekmek + Çikolatalı Sufle",
+        "price": "430.00 TL",
+        "original_price": "430.00 TL"
+      },
+      {
+        "name": "Orta Boy Pizza & Cinnamon Roll & Red Bull Enerji İçeceği",
+        "price": "595.00 TL",
+        "original_price": "595.00 TL"
+      },
+      {
+        "name": "2 Bol Peynirli Ekmek & 2 Red Bull Enerji İçeceği",
+        "price": "420.00 TL",
+        "original_price": "420.00 TL"
+      },
+      {
+        "name": "2 Bol Peynirli Ekmek & 2 Red Bull Enerji İçeceği",
+        "price": "640.00 TL",
+        "original_price": "640.00 TL"
+      },
+      {
+        "name": "Bol Peynirli Ekmek & Cinnamon Roll & Algida",
+        "price": "345.00 TL",
+        "original_price": "345.00 TL"
+      },
+      {
+        "name": "Sucuklu veya Sebzeli veya Karışık Pizzetta + Akdenizli veya Sucuklu veya (klasik) Bol Peynirli Ekmek",
+        "price": "330.00 TL",
+        "original_price": "330.00 TL"
+      },
+      {
+        "name": "2 Adet Pizzetta",
+        "price": "330.00 TL",
+        "original_price": "330.00 TL"
+      },
+      {
+        "name": "2 Adet Pizzetta & Litrelik İçecek",
+        "price": "430.00 TL",
+        "original_price": "430.00 TL"
+      },
+      {
+        "name": "2 Adet Pizzetta + Tavuk + Orta Boy Patates",
+        "price": "380.00 TL",
+        "original_price": "380.00 TL"
+      },
+      {
+        "name": "5 Adet Orta Boy Pizza",
+        "price": "25.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "5 Adet Orta Boy Pizza",
+        "price": "240.00 TL",
+        "original_price": "240.00 TL"
+      },
+      {
+        "name": "2 Büyük Boy Pizza + Litrelik İçecek",
+        "price": "930.00 TL",
+        "original_price": "930.00 TL"
+      },
+      {
+        "name": "2 Adet Büyük Boy Pizza",
+        "price": "40.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "2 Adet Büyük Boy Pizza",
+        "price": "850.00 TL",
+        "original_price": "850.00 TL"
+      },
+      {
+        "name": "3 Adet Büyük Boy Pizza",
+        "price": "40.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "3 Adet Büyük Boy Pizza",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "4 Adet Pizzetta",
+        "price": "620.00 TL",
+        "original_price": "620.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pizza + Tavuk & Patates Mix + Cinnamon Roll + Litrelik İçecek + 2 Adet Su",
+        "price": "890.00 TL",
+        "original_price": "890.00 TL"
+      },
+      {
+        "name": "2 Büyük Boy Pizza + Tavuk & Patates Mix + Litrelik İçecek + 2 Su",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Orta Boy Paketos",
+        "price": "25.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Orta Boy Paketos",
+        "price": "460.00 TL",
+        "original_price": "460.00 TL"
+      },
+      {
+        "name": "Orta Boy Paketos",
+        "price": "580.00 TL",
+        "original_price": "580.00 TL"
+      },
+      {
+        "name": "Bol Peynirli Ekmek + X-Large Sos",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Orta Boy Pizza + Cinnamon Roll",
+        "price": "490.00 TL",
+        "original_price": "490.00 TL"
+      },
+      {
+        "name": "Orta Boy Paketos + Litrelik İçecek",
+        "price": "540.00 TL",
+        "original_price": "540.00 TL"
+      },
+      {
+        "name": "Tek Kişilik Pizzalar(Küçük Boy)",
+        "price": "15.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "Tek Kişilik Pizzalar(Küçük Boy)",
+        "price": "320.00 TL",
+        "original_price": "320.00 TL"
+      },
+      {
+        "name": "Orta Boy Pan Pizza",
+        "price": "430.00 TL",
+        "original_price": "430.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pan Pizza + Cinnamon Roll",
+        "price": "690.00 TL",
+        "original_price": "690.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pan Cazip Pizzalar",
+        "price": "590.00 TL",
+        "original_price": "590.00 TL"
+      },
+      {
+        "name": "2 Orta Boy Pan Pizza",
+        "price": "610.00 TL",
+        "original_price": "610.00 TL"
+      },
+      {
+        "name": "Orta Boy Pan Pizza + Bol Malzemos",
+        "price": "610.00 TL",
+        "original_price": "610.00 TL"
+      },
+      {
+        "name": "Pizzetta + Tavuk + Patates + 200 Ml Ayran + Boyama Defteri",
+        "price": "290.00 TL",
+        "original_price": "290.00 TL"
+      },
+      {
+        "name": "Küçük Boy Paketos + 200 Ml Ayran + Boyama Defteri",
+        "price": "340.00 TL",
+        "original_price": "340.00 TL"
+      },
+      {
+        "name": "Mozzarella Peyniri , Pizza Sosu , Sucuk , Mantar , Yeşil Biber",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Mozzarella Peyniri , Pizza Sosu",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Mozzarella Peyniri , Pizza Sosu , Sucuk , Sosis , Jambon , Mısır , Yeşil Biber",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Mozzarella peyniri, sucuk, sosis, jambon, mantar, mısır, siyah zeytin, mayonez (Malzeme değişimi yapılmamaktadır.)",
+        "price": "175.00 TL",
+        "original_price": "175.00 TL"
+      },
+      {
+        "name": "Tavuklu Dürümos",
+        "price": "175.00 TL",
+        "original_price": "175.00 TL"
+      },
+      {
+        "name": "Mozzarella peyniri, sucuk, sosis, jambon, mantar, mısır, siyah zeytin, mayonez (Malzeme değişimi yapılmamaktadır.)",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "Tavuklu Dürümos XL",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "10 Adet Çıtır Tavuk Topları, 5 det Çıtır Tavuk Finger, Küçük Boy Patates",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "Çıtır Karışık Kova",
+        "price": "290.00 TL",
+        "original_price": "290.00 TL"
+      },
+      {
+        "name": "30'lu Çıtır Tavuk Topları",
+        "price": "165.00 TL",
+        "original_price": "165.00 TL"
+      },
+      {
+        "name": "20'li Çıtır Tavuk Topları",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "5'li Çıtır Tavuk Finger",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      },
+      {
+        "name": "10'lu Çıtır Tavuk Topları",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "10'lu Çıtır Tavuk Finger",
+        "price": "165.00 TL",
+        "original_price": "165.00 TL"
+      },
+      {
+        "name": "4 adet marine edilmiş tavuk parçaları",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "8 adet marine edilmiş tavuk parçaları",
+        "price": "145.00 TL",
+        "original_price": "145.00 TL"
+      },
+      {
+        "name": "12 adet marine edilmiş tavuk parçaları",
+        "price": "210.00 TL",
+        "original_price": "210.00 TL"
+      },
+      {
+        "name": "15'li Çıtır Tavuk Finger",
+        "price": "235.00 TL",
+        "original_price": "235.00 TL"
+      },
+      {
+        "name": "Küçük Boy Patates (150 gr.)",
+        "price": "75.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "Orta Boy Patates (225 gr.)",
+        "price": "85.00 TL",
+        "original_price": "85.00 TL"
+      },
+      {
+        "name": "Büyük Boy Patates (300 gr.)",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Büyük Boy Patates (300 gr.)",
+        "price": "80.00 TL",
+        "original_price": "80.00 TL"
+      },
+      {
+        "name": "Sarımsaklı Ekmek",
+        "price": "75.00 TL",
+        "original_price": "75.00 TL"
+      },
+      {
+        "name": "Sucuklu Bol Peynirli Ekmek",
+        "price": "175.00 TL",
+        "original_price": "175.00 TL"
+      },
+      {
+        "name": "Sıcak akışkan çikolatalı sufle",
+        "price": "150.00 TL",
+        "original_price": "150.00 TL"
+      },
+      {
+        "name": "4'lü Cinnamon Roll",
+        "price": "115.00 TL",
+        "original_price": "115.00 TL"
+      },
+      {
+        "name": "8'li Cinnamon Roll",
+        "price": "165.00 TL",
+        "original_price": "165.00 TL"
+      },
+      {
+        "name": "Algida Magnum Mini Sandwich (100 ml.)",
+        "price": "115.00 TL",
+        "original_price": "115.00 TL"
+      },
+      {
+        "name": "Algida Magnum Mini Sandwich (100 ml.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Coca-Cola (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Coca-Cola (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Coca-Cola Light (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Coca-Cola Light (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Cappy Şeftali (25 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Cappy Şeftali (25 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Cappy Karışık (25 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Cappy Karışık (25 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Fuse Tea Limon (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Fuse Tea Limon (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Fuse Tea Şeftali (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Fuse Tea Şeftali (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Fanta (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Fanta (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Sprite (33 cl.)",
+        "price": "120.00 TL",
+        "original_price": "120.00 TL"
+      },
+      {
+        "name": "Sprite (33 cl.)",
+        "price": "105.00 TL",
+        "original_price": "105.00 TL"
+      },
+      {
+        "name": "Ayran (200 ml.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Sütaş Ayran (300 ml.)",
+        "price": "65.00 TL",
+        "original_price": "65.00 TL"
+      },
+      {
+        "name": "Damla Su (500 ml.)",
+        "price": "40.00 TL",
+        "original_price": "40.00 TL"
+      },
+      {
+        "name": "Sütaş Ayran (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Sütaş Ayran (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Coca-Cola (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Coca-Cola (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Coca-Cola Light (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Coca-Cola Light (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Fanta (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Fanta (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Sprite (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Sprite (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Fuse Tea Şeftali (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Fuse Tea Şeftali (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Fuse Tea Limon (1 L.)",
+        "price": "155.00 TL",
+        "original_price": "155.00 TL"
+      },
+      {
+        "name": "Fuse Tea Limon (1 L.)",
+        "price": "140.00 TL",
+        "original_price": "140.00 TL"
+      },
+      {
+        "name": "Red Bull Energy Drink (250 ml)",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Red Bull Sugarfree (250 ml)",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "Red Bull Peach Edition (250ml)",
+        "price": "135.00 TL",
+        "original_price": "135.00 TL"
+      },
+      {
+        "name": "(7 Ürün)",
+        "price": "35.00 TL",
+        "original_price": "35.00 TL"
+      },
+      {
+        "name": "Meksika Sos",
+        "price": "35.00 TL",
+        "original_price": "35.00 TL"
+      },
+      {
+        "name": "Acı Sos",
+        "price": "35.00 TL",
+        "original_price": "35.00 TL"
+      },
+      {
+        "name": "Mini Ketçap",
+        "price": "5.00 TL",
+        "original_price": "5.00 TL"
+      },
+      {
+        "name": "Mini Mayonez",
+        "price": "5.00 TL",
+        "original_price": "5.00 TL"
+      },
+      {
+        "name": "Mini Mayonez",
+        "price": "80.00 TL",
+        "original_price": "80.00 TL"
+      },
+      {
+        "name": "X-Large Cheddar Sos (80 gr)",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Semazen Döner (Seyrantepe)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/30398",
+    "items": [
+      {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Min. Tutar",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Banka & Kredi Kartı",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Detaylar",
+        "price": "75.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Özel sos, turşu, patates kızartması, domates",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Özel sos, turşu, patates kızartması, domates",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "(2 Ürün)",
+        "price": "300.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "4 Adet Tavuk Döner Dürüm + Pepsi (1 L.)",
+        "price": "840.00 TL",
+        "original_price": "840.00 TL"
+      },
+      {
+        "name": "Özel sos, turşu, patates kızartması, domates",
+        "price": "325.00 TL",
+        "original_price": "325.00 TL"
+      },
+      {
+        "name": "Özel sos, turşu, patates kızartması, domates",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Tavuk döner kızartma patates turşu özel sos",
+        "price": "260.00 TL",
+        "original_price": "260.00 TL"
+      },
+      {
+        "name": "Hatay Soslu Zurna Dürüm",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Tombik Tavuk Döner",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Turşu, patates kızartması, domates, isteğe göre sos",
+        "price": "230.00 TL",
+        "original_price": "230.00 TL"
+      },
+      {
+        "name": "Pepsi (33 cl.)",
+        "price": "80.00 TL",
+        "original_price": "80.00 TL"
+      },
+      {
+        "name": "Pepsi Max (33 cl.)",
+        "price": "80.00 TL",
+        "original_price": "80.00 TL"
+      },
+      {
+        "name": "Lipton Ice Tea (33 cl.)",
+        "price": "80.00 TL",
+        "original_price": "80.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (30 cl.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Ayran (30 cl.)",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Limonlu Soda (20 cl.)",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Soda (20 cl.)",
+        "price": "50.00 TL",
+        "original_price": "50.00 TL"
+      },
+      {
+        "name": "Su (50 cl.)",
+        "price": "35.00 TL",
+        "original_price": "35.00 TL"
+      },
+      {
+        "name": "Pepsi (1 L.)",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      },
+      {
+        "name": "Ayran (1 L.)",
+        "price": "110.00 TL",
+        "original_price": "110.00 TL"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "West N Chicken (Nisbetiye)",
+    "restaurant_rating": null,
+    "restaurant_url": "https://tgoyemek.com/restoranlar/30512",
+    "items": [
+      {
+        "name": "05",
+        "price": "175.00 TL",
+        "original_price": "300.00 TL"
+      },
+      {
+        "name": "Min. Tutar",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Kapıda Ödeme (10)",
+        "price": "200.00 TL",
+        "original_price": "200.00 TL"
+      },
+      {
+        "name": "ILKYEMEK200",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Seçeceğiniz Burger + Patates Kızartması + İçecek",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Hot Crispy Lokum (5 Adet)",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "Tavuk Nugget (4 Adet)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Çıtır XXL Menü",
+        "price": "900.00 TL",
+        "original_price": "900.00 TL"
+      },
+      {
+        "name": "Crispy Lokum (4 Adet)",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Crispy Lokum (8 Adet)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Tavuk Suyu Çorbası",
+        "price": "225.00 TL",
+        "original_price": "225.00 TL"
+      },
+      {
+        "name": "100 gr. crispy tavuk, kıvırcık, domates, turşu, özel sos, patates kızartması",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "100 gr. crispy tavuk, kıvırcık, domates, turşu, iki dilim cheddar peyniri, özel sos, patates kızartması",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "100 gr. crispy tavuk, kıvırcık, domates, jalapeno biberi, cheddar peyniri, acı sos, patates kızartması",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "100 gr. crispy tavuk, kıvırcık, domates, turşu, bbq sos, füme eti, patates kızartması",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Cheddar Soslu Patates Kızartması",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Trüflü Patates Kızartması",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Patates Kızartması",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Tavuk Nugget (8 Adet)",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Soğan Halkası (10 Adet)",
+        "price": "180.00 TL",
+        "original_price": "180.00 TL"
+      },
+      {
+        "name": "Soğan Halkası (10 Adet)",
+        "price": "20.00 TL",
+        "original_price": "20.00 TL"
+      },
+      {
+        "name": "Soğan Halkası (18 Adet)",
+        "price": "260.00 TL",
+        "original_price": "260.00 TL"
+      },
+      {
+        "name": "Hellim Stick (6 Adet)",
+        "price": "330.00 TL",
+        "original_price": "330.00 TL"
+      },
+      {
+        "name": "Mozzarella Stick (6 Adet)",
+        "price": "330.00 TL",
+        "original_price": "330.00 TL"
+      },
+      {
+        "name": "Parmesan Peynirli Patates Kızartması",
+        "price": "275.00 TL",
+        "original_price": "275.00 TL"
+      },
+      {
+        "name": "Hot Sauce French Fries",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "BBQ Sauce French Fries",
+        "price": "250.00 TL",
+        "original_price": "250.00 TL"
+      },
+      {
+        "name": "Crispy Wing (4 Adet)",
+        "price": "350.00 TL",
+        "original_price": "350.00 TL"
+      },
+      {
+        "name": "Crispy Wing (10 Adet)",
+        "price": "750.00 TL",
+        "original_price": "750.00 TL"
+      },
+      {
+        "name": "Crispy Wing (10 Adet)",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "BBQ Wing (8 Adet)",
+        "price": "650.00 TL",
+        "original_price": "650.00 TL"
+      },
+      {
+        "name": "Crispy Wing (6 Adet)",
+        "price": "450.00 TL",
+        "original_price": "450.00 TL"
+      },
+      {
+        "name": "Hot Wings (5 Adet)",
+        "price": "400.00 TL",
+        "original_price": "400.00 TL"
+      },
+      {
+        "name": "BBQ Wings (5 Adet)",
+        "price": "600.00 TL",
+        "original_price": "600.00 TL"
+      },
+      {
+        "name": "Hot Wings (10 Adet)",
+        "price": "700.00 TL",
+        "original_price": "700.00 TL"
+      },
+      {
+        "name": "Tavuklu Çıtır Salata",
+        "price": "500.00 TL",
+        "original_price": "500.00 TL"
+      },
+      {
+        "name": "Coca-Cola Zero Sugar (33 cl.)",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Coca-Cola (33 cl.)",
+        "price": "125.00 TL",
+        "original_price": "125.00 TL"
+      },
+      {
+        "name": "Coca-Cola Şekersiz (33 cl.)",
+        "price": "125.00 TL",
+        "original_price": "125.00 TL"
+      },
+      {
+        "name": "Fanta (33 cl.)",
+        "price": "125.00 TL",
+        "original_price": "125.00 TL"
+      },
+      {
+        "name": "Sprite (33 cl.)",
+        "price": "125.00 TL",
+        "original_price": "125.00 TL"
+      },
+      {
+        "name": "Fuse Tea (33 cl.)",
+        "price": "125.00 TL",
+        "original_price": "125.00 TL"
+      },
+      {
+        "name": "Schweppes (33 cl.)",
+        "price": "100.00 TL",
+        "original_price": "100.00 TL"
+      },
+      {
+        "name": "Schweppes (33 cl.)",
+        "price": "10.00 TL",
+        "original_price": "10.00 TL"
+      },
+      {
+        "name": "Niğde Gazozu (25 cl.)",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Limon suyu, şeker, su",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (30 cl.)",
+        "price": "90.00 TL",
+        "original_price": "90.00 TL"
+      },
+      {
+        "name": "Şalgam Suyu (30 cl.)",
+        "price": "95.00 TL",
+        "original_price": "95.00 TL"
+      },
+      {
+        "name": "Soda (20 cl.)",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Su (50 cl.)",
+        "price": "70.00 TL",
+        "original_price": "70.00 TL"
+      },
+      {
+        "name": "Ketçap",
+        "price": "15.00 TL",
+        "original_price": "15.00 TL"
+      },
+      {
+        "name": "Mayonez",
+        "price": "15.00 TL",
+        "original_price": "15.00 TL"
+      },
+      {
+        "name": "Ranch Sos",
+        "price": "15.00 TL",
+        "original_price": "15.00 TL"
+      },
+      {
+        "name": "Hot Chili Sos",
+        "price": "12.00 TL",
+        "original_price": "12.00 TL"
+      },
+      {
+        "name": "Hot Chili Sos",
+        "price": "5.00 TL",
+        "original_price": "5.00 TL"
+      },
+      {
+        "name": "Sweet Chili Sos",
+        "price": "25.00 TL",
+        "original_price": "25.00 TL"
+      },
+      {
+        "name": "Sarımsaklı Mayonez",
+        "price": "20.00 TL",
+        "original_price": "20.00 TL"
+      },
+      {
+        "name": "Hardal Sos",
+        "price": "30.00 TL",
+        "original_price": "30.00 TL"
+      },
+      {
+        "name": "Hardal Sos",
+        "price": "25.00 TL",
+        "original_price": "25.00 TL"
+      },
+      {
+        "name": "Hardal Sos",
+        "price": "60.00 TL",
+        "original_price": "60.00 TL"
+      },
+      {
+        "name": "Sriracha Sosu",
+        "price": "25.00 TL",
+        "original_price": "25.00 TL"
       }
     ]
   }

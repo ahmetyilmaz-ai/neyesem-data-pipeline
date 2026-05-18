@@ -101,6 +101,23 @@ def load_data():
         df["item_name"].fillna("").apply(normalize_text)
     )
 
+    # Scrape sırasında sayfadan ürün yerine yanlışlıkla yakalanan UI metinlerini temizle
+    bad_item_patterns = [
+        "şu anda temsili restoranları görüntülemekte",
+        "su anda temsili restoranlari goruntulemekte",
+        "aradığınız sayfa bulunamadı",
+        "anasayfaya dön",
+        "cookie",
+        "çerez",
+    ]
+
+    def is_bad_item_name(value):
+        raw = str(value or "").lower()
+        normalized = normalize_text(raw)
+        return any(pattern in raw or pattern in normalized for pattern in bad_item_patterns)
+
+    df = df[~df["item_name"].apply(is_bad_item_name)].copy()
+
     df["search_text"] = (
         df["item_name"].fillna("").apply(normalize_text)
         + " "
@@ -132,12 +149,91 @@ def safe(value):
     return html.escape(str(value))
 
 
-def filter_data(df, query, platforms, restaurants, sort_mode):
+def tokenize(value):
+    normalized = normalize_text(value)
+    return [token for token in normalized.split() if token]
+
+
+def raw_tokenize(value):
+    import re
+    raw = str(value or "").lower()
+    return re.findall(r"[a-zçğıöşü0-9]+", raw)
+
+
+def smart_match(value, query):
+    """
+    Kısa aramalarda tam kelime eşleşmesi yapar.
+    'su' aramasında 'şu', 'sultan', 'suadiye', 'sucuk' gelmez.
+    Ayrıca demo için 'su böreği' gibi yemekleri içme suyu aramasından ayırır.
+    """
+    raw_query = str(query or "").lower().strip()
+    raw_value = str(value or "").lower().strip()
+
+    q = normalize_text(query)
+    text = normalize_text(value)
+
+    if not q:
+        return True
+
+    query_tokens = tokenize(q)
+    text_tokens = tokenize(text)
+    raw_query_tokens = raw_tokenize(raw_query)
+    raw_value_tokens = raw_tokenize(raw_value)
+
+    if not query_tokens:
+        return True
+
+    # Özel demo durumu: "su" araması içme suyu ürünlerini getirsin
+    if raw_query == "su":
+        if "su" not in raw_value_tokens:
+            return False
+
+        excluded_food_words = [
+            "böreği",
+            "börek",
+            "boregi",
+            "borek",
+            "sucuk",
+            "sulu",
+        ]
+
+        if any(word in raw_value or word in text for word in excluded_food_words):
+            return False
+
+        return True
+
+    # Tek ve kısa kelimelerde önce ham token eşleşmesi kullan.
+    # Böylece 'su' ile 'şu' eşleşmez.
+    if len(raw_query_tokens) == 1 and len(raw_query_tokens[0]) <= 3:
+        return raw_query_tokens[0] in raw_value_tokens
+
+    # Çok kelimeli aramada tüm tokenlar geçsin
+    if len(query_tokens) > 1:
+        return all(token in text_tokens for token in query_tokens)
+
+    # Uzun tek kelimelerde contains serbest
+    return q in text
+
+
+def filter_data(df, query, platforms, restaurants, sort_mode, search_scope):
     filtered = df.copy()
 
     if query:
-        q = normalize_text(query)
-        filtered = filtered[filtered["search_text"].str.contains(q, na=False)]
+        if search_scope == "Sadece ürün adı":
+            filtered = filtered[
+                filtered["item_name"].fillna("").apply(lambda value: smart_match(value, query))
+            ]
+        elif search_scope == "Sadece restoran adı":
+            filtered = filtered[
+                filtered["restaurant_name"].fillna("").apply(lambda value: smart_match(value, query))
+            ]
+        else:
+            filtered = filtered[
+                filtered["item_name"].fillna("").apply(lambda value: smart_match(value, query))
+                | filtered["restaurant_name"].fillna("").apply(lambda value: smart_match(value, query))
+                | filtered["platform"].fillna("").apply(lambda value: smart_match(value, query))
+                | filtered["city"].fillna("").apply(lambda value: smart_match(value, query))
+            ]
 
     if platforms:
         filtered = filtered[filtered["platform"].isin(platforms)]
@@ -400,6 +496,12 @@ with st.sidebar:
         placeholder="Örn: waffle, su, burger, bubble",
     )
 
+    search_scope = st.radio(
+        "Arama alanı",
+        ["Sadece ürün adı", "Sadece restoran adı", "Tüm alanlar"],
+        index=0,
+    )
+
     all_platforms = sorted(df["platform"].dropna().unique().tolist())
     selected_platforms = st.multiselect(
         "Platform seç",
@@ -425,6 +527,7 @@ filtered_df = filter_data(
     platforms=selected_platforms,
     restaurants=selected_restaurants,
     sort_mode=sort_mode,
+    search_scope=search_scope,
 )
 
 latest_update = df["scraped_at"].dropna().max() if "scraped_at" in df.columns else "-"
