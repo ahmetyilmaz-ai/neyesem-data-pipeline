@@ -1,0 +1,18 @@
+﻿{
+  "bursa": {
+    "latitude": 40.195,
+    "longitude": 29.060
+  },
+  "istanbul_maslak": {
+    "latitude": 41.110927,
+    "longitude": 29.022803
+  },
+  "izmir": {
+    "latitude": 38.4237,
+    "longitude": 27.1428
+  },
+  "ankara": {
+    "latitude": 39.9334,
+    "longitude": 32.8597
+  }
+}

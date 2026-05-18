@@ -26,8 +26,6 @@ PRICE_KEYS = [
     "sellingPrice",
     "discountedPrice",
     "discountPrice",
-    "amount",
-    "value",
 ]
 
 ORIGINAL_PRICE_KEYS = [
@@ -56,6 +54,8 @@ BAD_NAME_WORDS = [
     "temsili",
     "cookie",
     "çerez",
+    "restoran",
+    "anasayfa",
 ]
 
 
@@ -64,7 +64,6 @@ def walk(obj):
         yield obj
         for value in obj.values():
             yield from walk(value)
-
     elif isinstance(obj, list):
         for item in obj:
             yield from walk(item)
@@ -75,7 +74,6 @@ def get_value_by_keys(obj, keys):
 
     for key in keys:
         value = lower_map.get(key.lower())
-
         if value is not None:
             return value
 
@@ -92,13 +90,12 @@ def parse_any_price(value):
                 parsed = parse_any_price(value.get(key))
                 if parsed is not None:
                     return parsed
-
         return None
 
     if isinstance(value, (int, float)):
         price = float(value)
 
-        # Bazı API'ler fiyatı kuruş olarak gönderebilir: 24990 -> 249.90
+        # Bazı API'ler kuruş gönderir: 24990 -> 249.90
         if price > 5000:
             price = price / 100
 
@@ -127,9 +124,31 @@ def is_valid_name_candidate(text):
 
 
 def parse_product_object(obj):
+    """
+    JSON/API response içinden ürün objesi yakalamaya çalışır.
+    Restoran kartlarını ürün sanmamak için minBasketPrice gibi alanları fiyat kabul etmiyoruz.
+    """
+
     name = get_value_by_keys(obj, NAME_KEYS)
 
     if not is_valid_name_candidate(name):
+        return None
+
+    # Restoran kartlarında gelen minBasketPrice, deliveryFee gibi alanları ürün fiyatı sanma.
+    lowered_keys = {str(k).lower() for k in obj.keys()}
+    restaurant_only_keys = {
+        "minbasketprice",
+        "deliveryfee",
+        "averagedeliveryinterval",
+        "kitchen",
+        "kitchennameids",
+        "rating",
+        "ratingtext",
+    }
+
+    if lowered_keys.intersection(restaurant_only_keys) and not lowered_keys.intersection(
+        {"price", "pricetext", "displayprice", "finalprice", "sellingprice", "discountedprice"}
+    ):
         return None
 
     price_value = get_value_by_keys(obj, PRICE_KEYS)
@@ -154,6 +173,7 @@ def parse_product_object(obj):
         "name": str(name).strip(),
         "price": f"{price:.2f} TL",
         "original_price": f"{original_price:.2f} TL",
+        "source": "json",
     }
 
 
@@ -184,6 +204,185 @@ def extract_items_from_json_payloads(payloads):
             items.append(item)
 
     return items
+
+
+def extract_items_from_dom_cards(page):
+    """
+    Text parser'dan daha kaliteli fallback.
+    Fiyat ile ürün adını tüm sayfa metninden değil, aynı DOM kartının içinden eşleştirir.
+    """
+
+    return page.evaluate(
+        r"""
+        () => {
+            const priceRegex = /(?:₺\s*)?\d{1,3}(?:\.\d{3})*,\d{2}\s*(?:TL|₺)?|\d+,\d{2}\s*(?:TL|₺)?|\d+\s*(?:TL|₺)/gi;
+
+            const badWords = [
+                "sepet",
+                "minimum",
+                "teslimat",
+                "kampanya",
+                "indirim",
+                "puan",
+                "yorum",
+                "dakika",
+                "ara",
+                "filtre",
+                "sırala",
+                "şu anda",
+                "temsili",
+                "cookie",
+                "çerez",
+                "restoran"
+            ];
+
+            function normalizeText(value) {
+                return String(value || "")
+                    .toLowerCase()
+                    .replaceAll("ı", "i")
+                    .replaceAll("ğ", "g")
+                    .replaceAll("ü", "u")
+                    .replaceAll("ş", "s")
+                    .replaceAll("ö", "o")
+                    .replaceAll("ç", "c")
+                    .replace(/[^a-z0-9\s]/g, " ")
+                    .replace(/\s+/g, " ")
+                    .trim();
+            }
+
+            function parsePrice(value) {
+                if (!value) return null;
+
+                let text = String(value)
+                    .replaceAll("₺", "")
+                    .replaceAll("TL", "")
+                    .trim();
+
+                text = text.replace(/[^0-9,.]/g, "");
+
+                if (!text) return null;
+
+                if (text.includes(",")) {
+                    text = text.replaceAll(".", "").replace(",", ".");
+                }
+
+                const number = Number.parseFloat(text);
+
+                if (!Number.isFinite(number)) return null;
+                if (number <= 0 || number > 5000) return null;
+
+                return number;
+            }
+
+            function isValidName(value) {
+                const raw = String(value || "").trim();
+                const normalized = normalizeText(raw);
+
+                if (raw.length < 2 || raw.length > 120) return false;
+                if (priceRegex.test(raw)) {
+                    priceRegex.lastIndex = 0;
+                    return false;
+                }
+
+                priceRegex.lastIndex = 0;
+
+                if (badWords.some(word => normalized.includes(normalizeText(word)))) return false;
+
+                return true;
+            }
+
+            function getLeafTexts(root) {
+                return Array.from(root.querySelectorAll("*"))
+                    .filter(el => el.children.length === 0)
+                    .map(el => ({
+                        text: (el.textContent || "").trim(),
+                        element: el
+                    }))
+                    .filter(x => x.text.length > 0);
+            }
+
+            const priceLeaves = Array.from(document.querySelectorAll("body *"))
+                .filter(el => el.children.length === 0)
+                .filter(el => {
+                    const text = el.textContent || "";
+                    const ok = priceRegex.test(text);
+                    priceRegex.lastIndex = 0;
+                    return ok;
+                });
+
+            const results = [];
+            const seen = new Set();
+
+            for (const priceEl of priceLeaves) {
+                let card = priceEl;
+
+                for (let depth = 0; depth < 8; depth++) {
+                    card = card.parentElement;
+                    if (!card) break;
+
+                    const cardText = card.innerText || "";
+
+                    if (cardText.length < 10 || cardText.length > 1200) continue;
+
+                    const priceMatches = cardText.match(priceRegex) || [];
+                    priceRegex.lastIndex = 0;
+
+                    if (priceMatches.length === 0) continue;
+
+                    const leafTexts = getLeafTexts(card);
+                    const priceIndex = leafTexts.findIndex(x => x.element === priceEl || x.text.includes(priceEl.textContent.trim()));
+
+                    let name = null;
+
+                    for (let i = Math.max(0, priceIndex - 6); i < priceIndex; i++) {
+                        const candidate = leafTexts[i]?.text;
+                        if (isValidName(candidate)) {
+                            name = candidate;
+                            break;
+                        }
+                    }
+
+                    if (!name) {
+                        for (const leaf of leafTexts) {
+                            if (isValidName(leaf.text)) {
+                                name = leaf.text;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (!name) continue;
+
+                    const prices = priceMatches
+                        .map(parsePrice)
+                        .filter(x => x !== null)
+                        .sort((a, b) => a - b);
+
+                    if (prices.length === 0) continue;
+
+                    const currentPrice = prices[0];
+                    const originalPrice = prices.length > 1 ? prices[prices.length - 1] : currentPrice;
+
+                    const key = `${normalizeText(name)}|${currentPrice}|${originalPrice}`;
+
+                    if (seen.has(key)) break;
+                    seen.add(key);
+
+                    results.push({
+                        name,
+                        price: `${currentPrice.toFixed(2)} TL`,
+                        original_price: `${originalPrice.toFixed(2)} TL`,
+                        source: "dom"
+                    });
+
+                    break;
+                }
+            }
+
+            return results;
+        }
+        """
+    )
 
 
 def extract_items_from_page_text(text):
@@ -241,6 +440,7 @@ def extract_items_from_page_text(text):
                 "name": item_name,
                 "price": f"{current_price:.2f} TL",
                 "original_price": f"{original_price:.2f} TL",
+                "source": "text",
             }
         )
 
@@ -312,22 +512,29 @@ def scrape_trendyol_url(page, url):
 
         restaurant_name = extract_restaurant_name(page)
 
-        # 1) Önce JSON/API response'larından ürün çıkar
         items = extract_items_from_json_payloads(captured_json_payloads)
 
         if items:
             print(f"{restaurant_name}: {len(items)} ürün JSON/API response üzerinden bulundu.")
+            source = "json"
         else:
-            # 2) JSON'dan ürün bulunamazsa eski yöntem fallback
-            body_text = page.locator("body").inner_text(timeout=10000)
-            items = extract_items_from_page_text(body_text)
-            print(f"{restaurant_name}: {len(items)} ürün sayfa metni fallback ile bulundu.")
+            items = extract_items_from_dom_cards(page)
+
+            if items:
+                print(f"{restaurant_name}: {len(items)} ürün DOM kart parser ile bulundu.")
+                source = "dom"
+            else:
+                body_text = page.locator("body").inner_text(timeout=10000)
+                items = extract_items_from_page_text(body_text)
+                print(f"{restaurant_name}: {len(items)} ürün sayfa metni fallback ile bulundu.")
+                source = "text"
 
         return {
             "restaurant_name": restaurant_name,
             "restaurant_rating": None,
             "restaurant_url": url,
             "items": items,
+            "extraction_source": source,
         }
 
     finally:
