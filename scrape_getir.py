@@ -1,4 +1,4 @@
-﻿import json
+import json
 import re
 import time
 from datetime import datetime
@@ -16,7 +16,7 @@ WEB_BASE = "https://getir.com"
 CITY = "bursa"
 LAT = 40.195
 LON = 29.060
-MAX_RESTAURANTS = 12
+MAX_RESTAURANTS = 1000
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
