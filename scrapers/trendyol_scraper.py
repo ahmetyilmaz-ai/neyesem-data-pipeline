@@ -2,6 +2,7 @@
 from playwright.sync_api import sync_playwright
 
 from scrapers.utils import parse_price, normalize_text
+from scrapers.menu_parser import extract_menu_items as extract_menu_items_shared
 
 
 PRICE_RE = re.compile(
@@ -56,6 +57,17 @@ BAD_NAME_WORDS = [
     "çerez",
     "restoran",
     "anasayfa",
+    "detaylar",
+    "detay",
+    "sepete",
+    "siparis",
+    "sipariş",
+    "incele",
+    "devamı",
+    "devami",
+    "daha fazla",
+    "tümünü",
+    "tumunu",
 ]
 
 
@@ -178,30 +190,25 @@ def parse_product_object(obj):
 
 
 def extract_items_from_json_payloads(payloads):
+    """Yakalanan tüm XHR/JSON cevaplarını ortak toleranslı parser'dan geçirir.
+
+    Eski katı parser menü objelerini tanıyamayıp her restoranda DOM fallback'ine
+    düşüyordu. Ortak parser kategori->ürün yapısını ve çok-anahtarlı fiyat/isim
+    alanlarını tanıdığı için API yolu artık gerçekten çalışır.
+    """
     items = []
-    seen = set()
 
-    for payload in payloads:
-        for obj in walk(payload):
-            if not isinstance(obj, dict):
-                continue
-
-            item = parse_product_object(obj)
-
-            if not item:
-                continue
-
-            key = (
-                normalize_text(item["name"]),
-                item["price"],
-                item["original_price"],
-            )
-
-            if key in seen:
-                continue
-
-            seen.add(key)
-            items.append(item)
+    for product in extract_menu_items_shared(payloads):
+        items.append(
+            {
+                "name": product["name"],
+                "price": f"{product['price']:.2f} TL",
+                "original_price": f"{product['original_price']:.2f} TL",
+                "category": product.get("category"),
+                "image_url": product.get("image_url"),
+                "source": "json",
+            }
+        )
 
     return items
 
@@ -233,7 +240,18 @@ def extract_items_from_dom_cards(page):
                 "temsili",
                 "cookie",
                 "çerez",
-                "restoran"
+                "restoran",
+                "detaylar",
+                "detay",
+                "sepete",
+                "siparis",
+                "sipariş",
+                "incele",
+                "devamı",
+                "devami",
+                "daha fazla",
+                "tümünü",
+                "tumunu"
             ];
 
             function normalizeText(value) {

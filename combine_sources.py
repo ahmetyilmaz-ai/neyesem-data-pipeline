@@ -1,6 +1,8 @@
 ﻿import json
 from pathlib import Path
 
+from scrapers.clean_and_enrich import clean_and_enrich
+
 
 SOURCE_FILES = [
     Path("data/normalized/yemeksepeti_items.json"),
@@ -25,12 +27,20 @@ def main():
         all_items.extend(items)
         print(f"{source_file}: {len(items)} ürün eklendi.")
 
+    # Tek noktada temizlik + kategori + tekrar eleme.
+    cleaned_items, stats = clean_and_enrich(all_items)
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     with OUTPUT_PATH.open("w", encoding="utf-8") as file:
-        json.dump(all_items, file, ensure_ascii=False, indent=2)
+        json.dump(cleaned_items, file, ensure_ascii=False, indent=2)
 
-    print(f"{len(all_items)} ürün birleştirildi.")
+    print()
+    print("--- Temizlik özeti ---")
+    print(f"Birleştirilen ham ürün : {stats['input']}")
+    print(f"Elenen çöp kayıt       : {stats['dropped_garbage']}")
+    print(f"Elenen birebir tekrar  : {stats['dropped_duplicate']}")
+    print(f"Temiz ürün (çıktı)     : {stats['output']}")
     print(f"Çıktı: {OUTPUT_PATH}")
 
 
