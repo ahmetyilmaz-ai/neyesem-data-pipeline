@@ -127,11 +127,19 @@ def parse_product(obj, category_name=None):
     if _is_restaurant_card(obj):
         return None
 
-    price = _parse_any_price(_get_by_keys(obj, PRICE_KEYS))
+    price_field = _get_by_keys(obj, PRICE_KEYS)
+    price = _parse_any_price(price_field)
     if price is None or price <= 0 or price > 5000:
         return None
 
+    # Orijinal/indirimsiz fiyat: önce ürünün üst seviyesinde ara.
     original_price = _parse_any_price(_get_by_keys(obj, ORIGINAL_PRICE_KEYS))
+    # Trendyol gibi API'lerde fiyat iç içe gelir: price={salePrice, marketPrice}.
+    # marketPrice o dict'in İÇİNDE olduğu için üst seviyede bulunamaz; dict ise oradan al.
+    if (original_price is None or original_price <= price) and isinstance(price_field, dict):
+        nested_original = _parse_any_price(_get_by_keys(price_field, ORIGINAL_PRICE_KEYS))
+        if nested_original is not None and nested_original > price:
+            original_price = nested_original
     if original_price is None or original_price < price:
         original_price = price
 
