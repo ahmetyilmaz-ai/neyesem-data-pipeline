@@ -64,8 +64,10 @@ CATEGORY_KEYWORDS = {
         "profiterol", "muhallebi", "trileçe", "trilece", "brownie", "browni", "kurabiye",
     ],
     "İçecek": [
-        "su", "kola", "ayran", "ice tea", "fanta", "sprite", "limonata", "pepsi",
-        "soda", "şalgam", "salgam", "milkshake", "smoothie", "çay", "cay", "kahve", "latte",
+        "su", "kola", "cola", "ayran", "ice tea", "fanta", "sprite", "limonata", "pepsi",
+        "soda", "gazoz", "şalgam", "salgam", "meşrubat", "mesrubat", "milkshake", "shake",
+        "smoothie", "çay", "cay", "kahve", "latte", "espresso", "americano", "cappuccino",
+        "mocha", "fuse tea", "fusetea", "meyve suyu", "churchill", "erikli", "sümeker", "sumeker",
     ],
     "Çorba": ["çorba", "corba", "soup"],
     "Sağlıklı": ["salata", "fit", "bowl", "ızgara", "izgara"],
