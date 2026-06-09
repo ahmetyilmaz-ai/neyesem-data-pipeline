@@ -1,4 +1,4 @@
-﻿import argparse
+import argparse
 import subprocess
 import sys
 from datetime import datetime
@@ -18,45 +18,28 @@ def run_step(title, command):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="NeYesem data refresh pipeline")
-    parser.add_argument(
-        "--discover-trendyol",
-        action="store_true",
-        help="Trendyol restoran linklerini yeniden keşfet",
-    )
+    parser = argparse.ArgumentParser(description="NeYesem veri yenileme pipeline (Trendyol API + Getir)")
     parser.add_argument(
         "--skip-scrape",
         action="store_true",
         help="Scrape işlemini atla, sadece normalize/combine yap",
     )
-
     args = parser.parse_args()
 
     python = sys.executable
 
     print(f"NeYesem data refresh başladı: {datetime.now().isoformat(timespec='seconds')}")
 
-    if args.discover_trendyol:
-        run_step(
-            "Trendyol restoran linklerini keşfet",
-            [python, "extract_trendyol_links_from_page.py"],
-        )
-
     if not args.skip_scrape:
         run_step(
-            "Getir Yemek verisini çek",
+            "Getir Yemek verisini çek (resmi API)",
             [python, "scrape_getir.py"],
         )
 
         run_step(
-            "Trendyol verisini çek",
-            [python, "scrape_trendyol.py"],
+            "Trendyol Go verisini çek (resmi API)",
+            [python, "scrape_trendyol_api.py", "--max", "0"],
         )
-
-    run_step(
-        "Yemeksepeti verisini normalize et",
-        [python, "normalize_existing.py"],
-    )
 
     run_step(
         "Trendyol verisini normalize et",
@@ -69,7 +52,7 @@ def main():
     )
 
     run_step(
-        "Tüm kaynakları birleştir",
+        "Tüm kaynakları birleştir (+ temizlik & kategori)",
         [python, "combine_sources.py"],
     )
 

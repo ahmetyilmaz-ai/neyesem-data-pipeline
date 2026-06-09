@@ -5,7 +5,6 @@ from scrapers.clean_and_enrich import clean_and_enrich
 
 
 SOURCE_FILES = [
-    Path("data/normalized/yemeksepeti_items.json"),
     Path("data/normalized/trendyol_items.json"),
     Path("data/normalized/getir_items.json"),
 ]
